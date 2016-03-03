@@ -17,6 +17,16 @@ a {
 }
 
 nav {
+	.navbar-brand {
+		height: 50px;
+		line-height: 20px;
+
+		.navbar-img {
+			height: 30px;
+			margin-top: -5px;
+		}
+	}
+
 	@media(min-width: 768px) {
     	min-height: 60px!important;
     	padding: 0!important;
@@ -24,6 +34,11 @@ nav {
         .navbar-brand {
             height: 60px;
             line-height: 30px;
+
+			.navbar-img {
+				height: 40px;
+				margin-top: -5px;
+			}
         }
 
     	.navbar-nav>li>a {
