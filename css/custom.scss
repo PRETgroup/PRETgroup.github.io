@@ -1,0 +1,65 @@
+@import 'variables';
+
+a, button {
+	-webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+a {
+    color: $link_color;
+    text-decoration: none;
+
+    &:hover {
+        color: $link_color_hover;
+        text-decoration: none;
+    }
+}
+
+nav {
+	@media(min-width: 768px) {
+    	min-height: 60px!important;
+    	padding: 0!important;
+
+        .navbar-brand {
+            height: 60px;
+            line-height: 30px;
+        }
+
+    	.navbar-nav>li>a {
+            height: 60px;
+			overflow: hidden;
+			line-height: 30px!important;
+		}
+    }
+}
+
+.content {
+	min-height: 100vh;
+	padding-top: 60px;
+	padding-bottom: 186px;
+	margin-bottom: -186px;
+
+	// These settings are for when the footer collapses
+	@media(max-width: 767px) {
+		padding-bottom: 251px;
+		margin-bottom: -251px;
+	}
+}
+
+.bg-dark {
+    background: $dark_color;
+    color: $dark_font_color;
+
+    a {
+        color: $dark_link_color;
+
+        &:hover {
+            color: $dark_link_color_hover;
+        }
+    }
+
+    .text-muted {
+        color: $dark_muted_color;
+    }
+}
