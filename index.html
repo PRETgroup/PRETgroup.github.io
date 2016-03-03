@@ -65,7 +65,17 @@
         </div>
     </nav>
 
-    <div class="content" id="content_pane">
+    <div class="content">
+        <div id="content_pane">
+        </div>
+        <div id="loading_pane" style="padding-top: 100px; padding-bottom: 100px;">
+            <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -103,6 +113,9 @@
 
     <script type="text/javascript">
     var load_content = function(page) {
+        $("#content_pane").html('');
+        $("#loading_pane").show();
+
         var loc = window.location.href;
         var dir = loc.substring(0, loc.lastIndexOf('/'));
 
@@ -111,6 +124,7 @@
         $.ajax(request_page)
         .done(function(data) {
             $("#content_pane").html(data);
+            $("#loading_pane").hide();
         })
         .fail(function() {
             if (page != "error404") {
@@ -118,6 +132,7 @@
             }
             else {
                 $("#content_pane").html("Unknown error.");
+                $("#loading_pane").hide();
             }
         });
     }
