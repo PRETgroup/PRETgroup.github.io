@@ -305,6 +305,9 @@ $.ajax("/pages/publications.json")
     if(typeof data === "string") {
         publications = JSON.parse(data);
     }
+    else {
+        publications = data;
+    }
 
     sorted = [];
     keys = [];
