@@ -127,6 +127,7 @@
         var dir = loc.substring(0, loc.lastIndexOf('/'));
 
         var request_page = dir + '/pages/' + page + ".html";
+        var javascript_page = dir + '/pages/js/' + page + '.js';
 
         $.ajax(request_page)
         .done(function(data) {
@@ -142,6 +143,8 @@
                 $("#loading_pane").hide();
             }
         });
+
+        $.getScript(javascript_page);
     }
 
     var change_page = function(page) {

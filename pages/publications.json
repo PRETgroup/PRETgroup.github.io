@@ -1,0 +1,219 @@
+[
+    {
+        "type": "proceedings",
+        "key": "rtas2014",
+        "author": "Eugene Yip and Matthew Kuo and Partha S Roop and David Broman",
+        "title": "Relaxing the Synchronous Approach for Mixed-Criticality Systems",
+        "booktitle": "12th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)",
+        "year": "2014",
+        "month": "apr",
+        "location": "Berlin, Germany",
+        "numpages": "12",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/rtas2014.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/rtas2014.pptx"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "cases2013",
+        "author": "Jia Jie Wang and Partha S Roop and Sidharta Andalam",
+        "title": "ILPc: A Novel Approach for Scalable Timing Analysis of Synchronous Programs",
+        "booktitle": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",
+        "year": "2013",
+        "month": "oct",
+        "location": "Montreal, Canada",
+        "numpages": "10",
+        "note": "CASES 2013 Best paper award",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/cases2013.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/cases2013.pptx"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "acsd2013-tickpad",
+        "author": "Matthew Kuo and Partha S Roop and Sidharta Andalam and Nitish Patel",
+        "title": "Precision Timed Embedded Systems Using TickPAD Memory",
+        "booktitle": "13th International Conference on Application of Concurrency to System Design (ACSD)",
+        "year": "2013",
+        "month": "jul",
+        "location": "Barcelona, Spain",
+        "numpages": "10",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-tickpad.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-tickpad.pptx"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "acsd2013-forec",
+        "author": "Eugene Yip and Partha S Roop and Morteza Biglari-Abhari and Alain Girault",
+        "title": "Programming and Timing Analysis of Parallel Programs on Multicores",
+        "booktitle": "13th International Conference on Application of Concurrency to System Design (ACSD)",
+        "year": "2013",
+        "month": "jul",
+        "location": "Barcelona, Spain",
+        "numpages": "10",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-forec.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-forec.pptx"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "dac2013",
+        "author": "Sidharta Andalam and Alain Girault and Roopak Sinha and Partha S. Roop and Jan Reineke",
+        "title": "Precise timing analysis for direct-mapped caches",
+        "booktitle": "The 50th Annual Design Automation Conference 2013, DAC '13",
+        "year": "2013",
+        "location": "Austin, TX, USA",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2013.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2013-presentation.pdf"
+        }
+    },
+    {
+        "type": "journal",
+        "key": "ieee-tc-pret-c",
+        "author": "Sidharta Andalam and Partha S. Roop and Alain Girault and Claus Traulsen",
+        "title": "Predictable Framework for Safety-Critical Embedded Systems",
+        "journal": "IEEE Transactions on Computers",
+        "year": "2013",
+        "month": "feb",
+        "volume": "99",
+        "number": "1",
+        "pages": "100-114",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/ieee-tc-pret-c.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "dac2011-wcrt",
+        "author": "Kuo, Matthew M Y and Sinha, Roopak and Roop, Partha S",
+        "title": "Efficient WCRT Analysis of Synchronous Programs using Reachability",
+        "booktitle": "Design Automation Conference, 2011. DAC '11. 48th ACM/IEEE",
+        "year": "2011",
+        "month": "jun",
+        "location": "San Diego, CA, USA",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2011-wcrt.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "date2011-wcet",
+        "author": "Sidharta Andalam and Partha S Roop and Alain Girault",
+        "title": "Pruning Infeasible Paths for Tight Timing Analysis of Synchronous Programs",
+        "booktitle": "Design Automation and Test in Europe (DATE)",
+        "year": "2011",
+        "month": "mar",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2011-wcet.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "delta2011-wcet",
+        "author": "Sidharta Andalam and Roopak Sinha and Partha S Roop",
+        "title": "Environment Modelling for Tight Timing Analysis of Synchronous Programs",
+        "booktitle": "The 6th International Symposium on Electronic Design, Test and Applications (DELTA)",
+        "year": "2011",
+        "month": "jan",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/delta2011-wcet.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "memocode2010-pret-c",
+        "author": "Sidharta Andalam and Partha S Roop and Alain Girault",
+        "title": "Predictable multithreading of embedded applications using PRET-C",
+        "booktitle": "ACM-IEEE International Conference on Formal Methods and Models for Codesign (MEMOCODE)",
+        "year": "2011",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/memocode2010-pret-c.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "indin2010-fb-pret-c",
+        "author": "Kuo, Matthew M Y and Yoong, Li Hsien and Andalam, Sidharta and Roop, Partha S",
+        "title": "Determining the Worst-Case Reaction Time of IEC 61499 Function Blocks",
+        "booktitle": "8th IEEE Conference on Industrial Informatics (INDIN 2010)",
+        "year": "2010",
+        "month": "jul",
+        "location": "Osaka, Japan",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/indin2010-fb-pret-c.pdf"
+        }
+    },
+    {
+        "type": "techreport",
+        "key": "uoa-techreport-679",
+        "author": "Eugene Yip and Partha S Roop and Morteza Biglari-Abhari",
+        "title": "Predictable Parallel Programming using PRET-C",
+        "institution": "Faculty of Engineering, University of Auckland",
+        "number": "679",
+        "year": "2010",
+        "month": "aug",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/uoa-techreport-679.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "date2010-pret-c",
+        "author": "Sidharta Andalam and Partha S Roop and Alain Girault",
+        "title": "Deterministic, predictable and light-weight multithreading using PRET-C",
+        "booktitle": "Design, Automation Test in Europe Conference Exhibition (DATE)",
+        "year": "2010",
+        "month": "mar",
+        "links": {
+            "Short PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-short-pret-c.pdf",
+            "Full PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-full-pret-c.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-pret-c-presentation.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "repp2009-pret-c",
+        "author": "Sidharta Andalam, Partha S Roop, Alain Girault and Claus Traulsen",
+        "title": "PRET-C: A New Language for Programming Precision Timed Architectures",
+        "booktitle": "Workshop on Reconciling Performance with Predictability (RePP)",
+        "year": "2009",
+        "month": "oct",
+        "location": "Grenoble, France",
+        "links": {
+            "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/repp2009-pret-c.pdf",
+            "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/repp2009-pret-c-presentation.pdf"
+        }
+    },
+    {
+        "type": "proceedings",
+        "key": "cases2009-wcet",
+        "author": "P. S. Roop and S. Andalam and R von Hanxleden, S. Yuan and C. Traulsen",
+        "title": "Tight WCRT analysis of synchronous C programs",
+        "booktitle": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES 2009)",
+        "year": "2009",
+        "month": "oct",
+        "location": "Grenoble, France",
+        "links": {
+            "PDF": "",
+            "Presentation": ""
+        }
+    },
+    {
+        "type": "techreport",
+        "key": "inria-techreport-6922",
+        "author": "S. Andalam, P. S. Roop, A. Girault, and C. Traulsen",
+        "title": "PRET-C: A New Language for Programming Precision Timed Architectures",
+        "institution": "INRIA Grenoble Rhone-Alpes",
+        "number": "6922",
+        "year": "2009",
+        "links": {
+            "PDF": "http://hal.inria.fr/inria-00391621/fr/"
+        }
+    }
+]
