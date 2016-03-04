@@ -302,7 +302,9 @@ function getStringForPublication(publication) {
 
 $.ajax("/pages/publications.json")
 .done(function(data) {
-    publications = JSON.parse(data);
+    if(typeof data === "string") {
+        publications = JSON.parse(data);
+    }
 
     sorted = [];
     keys = [];
@@ -347,7 +349,7 @@ $.ajax("/pages/publications.json")
         html += "</ul>";
     }
 
-    $("#publications").html(html);
+    $("#publications_holder").html(html);
 
     $('#bibtexModal').on('show.bs.modal', function (event) {
         var $button = $(event.relatedTarget);
@@ -358,5 +360,5 @@ $.ajax("/pages/publications.json")
     });
 })
 .fail(function() {
-    alert("Error");
+    $("#publications_holder").html('<div class="alert alert-danger text-center" style="margin-top: 100px; margin-bottom: 100px;">An error occured while fetching publications...</div>');
 });
