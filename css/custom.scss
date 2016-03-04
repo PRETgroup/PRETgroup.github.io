@@ -1,5 +1,9 @@
 @import 'variables';
 
+body {
+	text-align: justify;
+}
+
 a, button {
 	-webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
@@ -10,10 +14,17 @@ a {
     color: $link_color;
     text-decoration: none;
 
-    &:hover {
+    &:hover, &:focus {
         color: $link_color_hover;
         text-decoration: none;
     }
+}
+
+.bg-primary {
+	background-color: $primary_color;
+}
+.text-primary {
+	color: $primary_color;
 }
 
 nav {
