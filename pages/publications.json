@@ -12,7 +12,12 @@
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/rtas2014.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/rtas2014.pptx"
-        }
+        },
+        "our_authors": [
+            "eyip",
+            "mkuo",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
