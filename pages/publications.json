@@ -16,7 +16,8 @@
         "our_authors": [
             "eyip",
             "mkuo",
-            "proop"
+            "proop",
+            "dbro"
         ]
     },
     {
@@ -33,7 +34,12 @@
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/cases2013.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/cases2013.pptx"
-        }
+        },
+        "our_authors": [
+            "jwan",
+            "proop",
+            "sand"
+        ]
     },
     {
         "type": "proceedings",
@@ -48,7 +54,13 @@
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-tickpad.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-tickpad.pptx"
-        }
+        },
+        "our_authors": [
+            "mkuo",
+            "proop",
+            "sand",
+            "npat"
+        ]
     },
     {
         "type": "proceedings",
@@ -63,7 +75,11 @@
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-forec.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/acsd2013-forec.pptx"
-        }
+        },
+        "our_authors": [
+            "eyip",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -76,7 +92,12 @@
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2013.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2013-presentation.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "rsin",
+            "proop"
+        ]
     },
     {
         "type": "journal",
@@ -91,7 +112,11 @@
         "pages": "100-114",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/ieee-tc-pret-c.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -104,7 +129,12 @@
         "location": "San Diego, CA, USA",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2011-wcrt.pdf"
-        }
+        },
+        "our_authors": [
+            "mkuo",
+            "rsin",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -116,7 +146,11 @@
         "month": "mar",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2011-wcet.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -128,7 +162,12 @@
         "month": "jan",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/delta2011-wcet.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "rsin",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -139,7 +178,11 @@
         "year": "2011",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/memocode2010-pret-c.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -152,7 +195,12 @@
         "location": "Osaka, Japan",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/indin2010-fb-pret-c.pdf"
-        }
+        },
+        "our_authors": [
+            "mkuo",
+            "sand",
+            "proop"
+        ]
     },
     {
         "type": "techreport",
@@ -165,7 +213,11 @@
         "month": "aug",
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/uoa-techreport-679.pdf"
-        }
+        },
+        "our_authors": [
+            "eyip",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -179,7 +231,11 @@
             "Short PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-short-pret-c.pdf",
             "Full PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-full-pret-c.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-pret-c-presentation.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -193,7 +249,11 @@
         "links": {
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/repp2009-pret-c.pdf",
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/repp2009-pret-c-presentation.pdf"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "proop"
+        ]
     },
     {
         "type": "proceedings",
@@ -207,7 +267,11 @@
         "links": {
             "PDF": "",
             "Presentation": ""
-        }
+        },
+        "our_authors": [
+            "proop",
+            "sand"
+        ]
     },
     {
         "type": "techreport",
@@ -219,6 +283,10 @@
         "year": "2009",
         "links": {
             "PDF": "http://hal.inria.fr/inria-00391621/fr/"
-        }
+        },
+        "our_authors": [
+            "sand",
+            "proop"
+        ]
     }
 ]
