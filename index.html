@@ -120,6 +120,8 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
+    var query_params = [];
+
     var load_content = function(page) {
         $("#content_pane").html('');
         $("#loading_pane").show();
@@ -148,15 +150,25 @@
         $.getScript(javascript_page);
     }
 
-    var change_page = function(page) {
-        window.location.hash = "#!" + page;
-        load_content(page);
-    }
-
     var load_from_hash = function() {
         var page = window.location.hash.substr(2);
         if (page.length == 0) {
             page = "home";
+        }
+
+        query_params = [];
+        if(page.indexOf("?") > -1) {
+            var params_str = page.substr(page.indexOf("?")+1);
+
+            var params = params_str.split("&");
+            for(var i=0; i<params.length; i++) {
+                var index = params[i].indexOf("=");
+                if(index > -1) {
+                    query_params[params[i].substr(0, index)] = params[i].substr(index+1);
+                }
+            }
+
+            page = page.substr(0, page.indexOf("?"));
         }
 
         load_content(page);

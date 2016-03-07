@@ -312,12 +312,29 @@ $.ajax("/pages/publications.json")
     sorted = [];
     keys = [];
 
+    var sort = query_params["sort"];
+
     for(var i=0; i<publications.length; i++) {
         key = 'Unknown';
 
-        if('year' in publications[i]) {
-            key = publications[i]['year'];
+        if(sort === "type") {
+            if('type' in publications[i]) {
+                if(publications[i]['type'] === "journal")
+                    key = "Journal Article";
+                else if(publications[i]['type'] === "proceedings")
+                    key = "Conference";
+                else if(publications[i]['type'] === "techreport")
+                    key = "Technical Report";
+                else
+                    key = publications[i]['type'];
+            }
         }
+        else {
+            if('year' in publications[i]) {
+                key = publications[i]['year'];
+            }
+        }
+
 
         if(!sorted.hasOwnProperty(key)) {
             sorted[key] = [];
@@ -328,7 +345,10 @@ $.ajax("/pages/publications.json")
     }
 
     keys.sort();
-    keys.reverse();
+
+    if(sort !== "type") {
+        keys.reverse();
+    }
 
     var html = '<div class="modal fade" id="bibtexModal" tabindex="-1" role="dialog" aria-labelledby="bibtexModalLabel">';
     html += '   <div class="modal-dialog modal-lg" role="document">';
