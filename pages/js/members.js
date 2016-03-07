@@ -67,7 +67,13 @@ $.ajax("/pages/members.json")
             }
         }
 
-        html += '       <h3>Publications</h3>';
+        html += '       <h3>';
+        html += '           Publications';
+        html += '           <span class="small" style="font-size: 60%;">';
+        html += '               Sort By: <a href="#!members?member=' + member + '&sort=year">Year</a>';
+        html += '               | <a href="#!members?member=' + member + '&sort=type">Type</a>';
+        html += '           </span>';
+        html += '       </h3>';
         html += '       <div id="publications_holder" class="padding-left-sm">';
         html += '       </div>';
         html += '   </div>';
@@ -87,11 +93,20 @@ $.ajax("/pages/members.json")
             sorted = [];
             keys = [];
 
+            var sort = query_params["sort"];
+
             for(var i=0; i<publications.length; i++) {
                 key = 'Unknown';
 
-                if('type' in publications[i]) {
-                    key = getPaperTypeForKey(publications[i]["type"]);
+                if(sort === "type") {
+                    if('type' in publications[i]) {
+                        key = getPaperTypeForKey(publications[i]["type"]);
+                    }
+                }
+                else {
+                    if('year' in publications[i]) {
+                        key = publications[i]['year'];
+                    }
                 }
 
                 if('our_authors' in publications[i]) {
@@ -107,6 +122,10 @@ $.ajax("/pages/members.json")
             }
 
             keys.sort();
+
+            if(sort !== "type") {
+                keys.reverse();
+            }
 
             var htmlpub = '<div class="modal fade" id="bibtexModal" tabindex="-1" role="dialog" aria-labelledby="bibtexModalLabel">';
             htmlpub += '   <div class="modal-dialog modal-lg" role="document">';
