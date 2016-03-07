@@ -60,13 +60,13 @@
                         <a href="#"></a>
                     </li>
                     <li>
-                        <a href="#research">Research</a>
+                        <a href="#!research">Research</a>
                     </li>
                     <li>
-                        <a href="#publications">Publications</a>
+                        <a href="#!publications">Publications</a>
                     </li>
                     <li>
-                        <a href="#members">Members</a>
+                        <a href="#!members">Members</a>
                     </li>
                 </ul>
             </div>
@@ -149,12 +149,12 @@
     }
 
     var change_page = function(page) {
-        window.location.hash = "#" + page;
+        window.location.hash = "#!" + page;
         load_content(page);
     }
 
     var load_from_hash = function() {
-        var page = window.location.hash.substr(1);
+        var page = window.location.hash.substr(2);
         if (page.length == 0) {
             page = "home";
         }
