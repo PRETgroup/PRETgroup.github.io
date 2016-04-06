@@ -1,5 +1,120 @@
 [
     {
+        "type": "collection",
+        "key": "kuo2016new",
+        "author": "Kuo, Matthew MY and Roop, Partha S",
+        "title": "New Design Patterns for Time-Predictable Execution of Function Blocks",
+        "booktitle": "Distributed Control Applications: Guidelines, Design Patterns, and Application Examples with the IEC 61499",
+        "year": "2016",
+        "month": "jan",
+        "pages": "69-95",
+        "links": {
+        },
+        "our_authors": [
+            "mkuo",
+            "proop"
+        ]
+    },
+    {
+        "type": "journal",
+        "key": "zhao2016model",
+        "author": "Zhao, Yu and Roop, Partha S",
+        "title": "Model-Driven Design of Cardiac Pacemaker Using IEC 61499 Function Blocks",
+        "journal": "Distributed Control Applications: Guidelines, Design Patterns, and Application Examples with the IEC 61499",
+        "year": "2016",
+        "volume": "9",
+        "month": "jan",
+        "pages": "335",
+        "links": {
+        },
+        "our_authors": [
+            "yzha",
+            "proop"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "ro2015schedule",
+        "author": "Ro, Jin Woo and Roop, Partha and Malik, Avinash",
+        "title": "Schedule synthesis for time-triggered multi-hop wireless networks with retransmissions",
+        "booktitle": "Real-Time Distributed Computing (ISORC), 2015 IEEE 18th International Symposium on",
+        "year": "2015",
+        "month": "apr",
+        "numpages": "7",
+        "links": {
+        },
+        "our_authors": [
+            "jro",
+            "proop",
+            "amal"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "yoong2015synthesizing",
+        "author": "Yoong, Li Hsien and Roop, Partha S",
+        "title": "Synthesizing Multirate Programs from IEC 61499",
+        "booktitle": "Real-Time Distributed Computing (ISORC), 2015 IEEE 18th International Symposium on",
+        "year": "2015",
+        "month": "apr",
+        "numpages": "7",
+        "links": {
+        },
+        "our_authors": [
+            "lyoo",
+            "proop"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "hikmet2015fairness",
+        "author": "Hikmet, Mahmood and Roop, Partha and Ranjitkar, Prakash",
+        "title": "Fairness-Based Measures for Safety-Critical Vehicular Ad-Hoc Networks",
+        "booktitle": "Real-Time Distributed Computing (ISORC), 2015 IEEE 18th International Symposium on",
+        "year": "2015",
+        "month": "apr",
+        "numpages": "7",
+        "links": {
+        },
+        "our_authors": [
+            "mhik",
+            "proop"
+        ]
+    },
+    {
+        "type": "book",
+        "key": "yoong2015model",
+        "author": "Yoong, Li Hsien and Roop, Partha S and Bhatti, Zeeshan E and Kuo, Matthew MY",
+        "title": "Model-Driven Design Using IEC 61499",
+        "year": "2015",
+        "publisher": "Springer",
+        "links": {
+        },
+        "our_authors": [
+            "lyoo",
+            "proop",
+            "zbha",
+            "mkuo"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "ro2014model",
+        "author": "Ro, Jin Woo and Bhatti, Zeeshan E and Roop, Partha S",
+        "title": "A model-driven approach with synchronous semantics for developing hard real-time wsns",
+        "booktitle": "Emerging Technology and Factory Automation (ETFA), 2014 IEEE",
+        "year": "2014",
+        "month": "sep",
+        "numpages": "7",
+        "links": {
+        },
+        "our_authors": [
+            "jro",
+            "zbha",
+            "proop"
+        ]
+    },
+    {
         "type": "proceedings",
         "key": "rtas2014",
         "author": "Eugene Yip and Matthew Kuo and Partha S Roop and David Broman",
@@ -16,8 +131,7 @@
         "our_authors": [
             "eyip",
             "mkuo",
-            "proop",
-            "dbro"
+            "proop"
         ]
     },
     {
