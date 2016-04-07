@@ -62,6 +62,18 @@
         }
     },
     {
+        "key": "hpea",
+        "name": "Hammond Pearce",
+        "photo": "",
+        "position": "PhD Student",
+        "role": "member",
+        "contact": {
+            "email": "hpea485@aucklanduni.ac.nz"
+        },
+        "info": {
+        }
+    },
+    {
         "key": "sand",
         "name": "Sidharta Andalam",
         "photo": "",

@@ -38,6 +38,10 @@ $.ajax("/pages/members.json")
         html += '       <h2>';
         html += '           ' + member_struct["name"];
 
+        if('role' in member_struct) {
+            html += '           <span class="small">(' + getRoleNameForKey(member_struct["role"]) + ')</span>';
+        }
+
         if('position' in member_struct) {
             html += '           <br /><span class="small">' + member_struct["position"] + '</span>';
         }
@@ -157,6 +161,10 @@ $.ajax("/pages/members.json")
                 htmlpub += "</ul>";
             }
 
+            if(keys.length == 0) {
+                htmlpub += '<div class="alert alert-info text-center">No publications found.</div>';
+            }
+
             $parsed.find("#publications_holder").html(htmlpub);
 
             $("#members_holder").html($parsed);
@@ -170,7 +178,7 @@ $.ajax("/pages/members.json")
             });
         })
         .fail(function() {
-            $parsed.find("#publications_holder").html('<div class="alert alert-danger text-center">An error occured while fetching publications for this member...</div>');
+            $parsed.find("#publications_holder").html('<div class="alert alert-danger text-center">An error occured while fetching publications!</div>');
             $("#members_holder").html($parsed);
         });
     }
@@ -191,13 +199,7 @@ $.ajax("/pages/members.json")
         var html = '';
 
         for(var role in members_by_role) {
-            var role_name;
-            if(role === "leader") {
-                role_name = "Group Leader";
-            }
-            else {
-                role_name = make_nice_header(role);
-            }
+            var role_name = getRoleNameForKey(role);
 
             if(members_by_role[role].length > 1) {
                 if(role !== "alumni") {

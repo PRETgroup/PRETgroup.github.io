@@ -7,6 +7,13 @@ function make_nice_header(string) {
     });
 }
 
+function getRoleNameForKey(key) {
+    switch(key) {
+        case "leader": return "Group Leader";
+        default: return make_nice_header(key);
+    }
+}
+
 function getMonthForShort(mon) {
     switch(mon) {
         case "jan": return "January";
@@ -66,7 +73,7 @@ function getReferenceForProceeding(publication) {
     }
 
     if("note" in publication && publication["note"] !== "") {
-        str += '<span class="label label-success">' + publication["note"] + '</span>';
+        str += '<span class="label label-success">' + publication["note"] + '</span> ';
     }
 
     return str;
@@ -112,7 +119,7 @@ function getReferenceForArticle(publication) {
     }
 
     if("note" in publication && publication["note"] !== "") {
-        str += '<span class="label label-success">' + publication["note"] + '</span>';
+        str += '<span class="label label-success">' + publication["note"] + '</span> ';
     }
 
     return str;
@@ -149,6 +156,10 @@ function getReferenceForTechReport(publication) {
         str = str.substr(0, str.length-2) + ". ";
     }
 
+    if("note" in publication && publication["note"] !== "") {
+        str += '<span class="label label-success">' + publication["note"] + '</span> ';
+    }
+
     return str;
 }
 
@@ -171,6 +182,10 @@ function getReferenceForBook(publication) {
 
     if("publisher" in publication && publication["publisher"] !== "") {
         str += publication["publisher"] + ". ";
+    }
+
+    if("note" in publication && publication["note"] !== "") {
+        str += '<span class="label label-success">' + publication["note"] + '</span> ';
     }
 
     return str;
