@@ -3,7 +3,8 @@
         "key": "proop",
         "name": "Partha Roop",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/partha1_small.jpg",
-        "position": "Senior Lecturer and Group Leader",
+        "position": "Senior Lecturer",
+        "role": "leader",
         "contact": {
             "phone": "+64 9 3737599 EXT:85583",
             "fax": "+64 9 3737461",
@@ -15,10 +16,43 @@
         }
     },
     {
+        "key": "amal",
+        "name": "Avinash Malik",
+        "photo": "",
+        "position": "Lecturer",
+        "role": "member",
+        "contact": {
+            "email": "avinash.malik@auckland.ac.nz"
+        },
+        "info": {
+        }
+    },
+    {
+        "key": "lyoo",
+        "name": "Li Hsien Yoong",
+        "photo": "",
+        "role": "alumni",
+        "contact": {
+        },
+        "info": {
+        }
+    },
+    {
+        "key": "zbha",
+        "name": "Zeeshan Bhatti",
+        "photo": "",
+        "role": "alumni",
+        "contact": {
+        },
+        "info": {
+        }
+    },
+    {
         "key": "mkuo",
         "name": "Matthew Kuo",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/matthew1-247x300.jpg",
         "position": "PhD Student",
+        "role": "member",
         "contact": {
             "email": "mkuo005@aucklanduni.ac.nz"
         },
@@ -28,10 +62,45 @@
         }
     },
     {
+        "key": "sand",
+        "name": "Sidharta Andalam",
+        "photo": "",
+        "position": "Postdoctoral Researcher",
+        "role": "member",
+        "contact": {
+            "email": "sand080@aucklanduni.ac.nz"
+        },
+        "info": {
+        }
+    },
+    {
+        "key": "mhik",
+        "name": "Mahmood Hikmet",
+        "photo": "",
+        "position": "PhD Student",
+        "role": "member",
+        "contact": {
+        },
+        "info": {
+        }
+    },
+    {
+        "key": "jro",
+        "name": "Jin Ro",
+        "photo": "",
+        "position": "PhD Student",
+        "role": "member",
+        "contact": {
+            "email": "jro002@aucklanduni.ac.nz"
+        },
+        "info": {
+        }
+    },
+    {
         "key": "eyip",
         "name": "Eugene Yip",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/Eugene-Yip.jpg",
-        "position": "Doctoral Candidate",
+        "role": "alumni",
         "contact": {
             "phone": "+64 9 373 7599 ext 87060",
             "email": "eyip002@aucklanduni.ac.nz"
