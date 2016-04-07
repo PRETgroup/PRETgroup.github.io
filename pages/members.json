@@ -74,6 +74,18 @@
         }
     },
     {
+        "key": "nall",
+        "name": "Nathan Allen",
+        "photo": "",
+        "position": "PhD Student",
+        "role": "member",
+        "contact": {
+            "email": "nall426@aucklanduni.ac.nz"
+        },
+        "info": {
+        }
+    },
+    {
         "key": "sand",
         "name": "Sidharta Andalam",
         "photo": "",
