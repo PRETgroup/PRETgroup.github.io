@@ -39,12 +39,14 @@
     },
     {
         "key": "zbha",
-        "name": "Zeeshan Bhatti",
-        "photo": "",
+        "name": "Zeeshan Ejaz Bhatti",
+        "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/picture-281x300.jpg",
         "role": "alumni",
         "contact": {
         },
         "info": {
+            "background": "Zeeshan holds a Bachelor’s degree in Software Engineering complemented with a 4 year experience in the software industry. He went on to get two Master’s degrees in Computer Science and Software Engineering. He is currently working towards his Ph.D. degree in Computer Systems Engineering and his research work is on developing software engineering tools for functional safety of programmable electronic systems.",
+            "research_interests": "Software Engineering: Formal Methods, Tools and Practices.<br /><br />Safety Critical Systems: Deterministic Execution, Code Generation.<br /><br />Functional Safety: Qualitative and Quantitative Analysis"
         }
     },
     {
@@ -88,24 +90,28 @@
     {
         "key": "sand",
         "name": "Sidharta Andalam",
-        "photo": "",
+        "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/sid-Large-225x300.jpg",
         "position": "Postdoctoral Researcher",
         "role": "member",
         "contact": {
             "email": "sand080@aucklanduni.ac.nz"
         },
         "info": {
+            "background": "Sid's main research interests include designing safety-critical embedded systems, synchronous languages, time predictable architectures and  developing static timing analyser for verifying timing properties."
         }
     },
     {
         "key": "mhik",
         "name": "Mahmood Hikmet",
-        "photo": "",
+        "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/moody1.jpg",
         "position": "PhD Student",
         "role": "member",
         "contact": {
+            "email": "mhik003@aucklanduni.ac.nz"
         },
         "info": {
+            "background": "Born in Iraq in 1989, and moved to New Zealand in 1996. Grew up in East Auckland. I’ve been using computers since before I could walk – I learned how to push the power button on computers before my father learned how to frequently save his projects. I graduated with a Bachelor’s Degree in Computer System Engineering in 2012 from the University of Auckland. I am currently sponsored by HMI Technologies where I also work as a Research and Development Engineer.",
+            "research_interests": "Vehicular communication (vehicle to vehicle and vehicle to infrastructure). Particularly the specific protocols used for communication with an interest in introducing safety and robustness so services using the protocols are more reliable and dependable. I am interested in a model-driven approach to the problem."
         }
     },
     {
@@ -126,11 +132,50 @@
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/Eugene-Yip.jpg",
         "role": "alumni",
         "contact": {
-            "phone": "+64 9 373 7599 ext 87060",
             "email": "eyip002@aucklanduni.ac.nz"
         },
         "info": {
             "background": "Eugene Yip received his undergraduate degree in Engineering (Hons) from the University of Auckland. He is currently a Doctoral Candidate, supervised by Dr. Partha Roop and Dr. Morteza Biglari-Abhari. His primary field of interest is in the deterministic parallel programming of embedded multicore systems with safety-critical concerns. He is developing a synchronous extension to C with formal semantics, called ForeC, which allows programmers to write deterministic parallel programs. To complement the language, he is also developing a static timing analysis tool for computing WCRT of ForeC programs executed on multicore systems. He has served as a teaching assistant in the software design and digital logic courses, and a student mentoring scheme.<br /><br />Eugene is interested in website development and opensource projects. He has been involved in Spark, which is a student-led organisation for fostering the spirit of entrepreneurship at the University of Auckland. He has also tried Salsa, Ceroc, and enjoys Ballroom dancing. To keep his writing fluent, he enjoys the use of fountain pens."
+        }
+    },
+    {
+        "key": "jwan",
+        "name": "Hugh Wang",
+        "photo": "",
+        "position": "PhD Student",
+        "role": "member",
+        "contact": {
+            "email": "jwan232@aucklanduni.ac.nz"
+        },
+        "info": {
+            "background": "I am a PhD student in the Department of Electrical and Computer Engineering at the University of Auckland in Auckland, New Zealand, supervised by Dr. Partha S. Roop. I also obtained my Master of Engineering (Honours) degree and B.E. (Honours) degree at the same university.",
+            "research_interests": "My main research interest is in the area of real-time embedded system.<br /><br />The research topic of the master is ILP based WCRT analysis for synchronous programs. The ILP formulations explicitly take the concurrent and the lock-step execution natural of synchronous programs into consideration, result a faster analysis time than conventional ILP formulation and better handling of the state space explosion problem. My current research focus on how to effectively program Precision Timed (PRET) Machines with consideration of facilitating the timing analysis process and achieving optimal performance."
+        }
+    },
+    {
+        "key": "sali",
+        "name": "Adeel Ali",
+        "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/adeel-Large-200x300.jpg",
+        "role": "alumni",
+        "contact": {
+            "email": "sali080@aucklanduni.ac.nz"
+        },
+        "info": {
+            "background": "Born in Karachi, Pakistan, 18th Nov 1982. Graduated (with Distinction) in 2006 from NED University of Engineering & Technology (Department of Computer Science and Information Technology), Karachi, Pakistan. Worked at VoiZar MFZ LLC www.voizar.com (formerly VoIPDeal) between 2006 and 2008, and left as a Software Engineer. Completed Masters of Engineering (First Class Honors) from The University Of Auckland (Electrical And Computer Engineering Department) in Nov 2009.",
+            "research_interests": "Internet based Services (Web, Mobile, Cloud). Service Oriented Activities esp. Service Composition. Formal Methods Application for Service Oriented Computing."
+        }
+    },
+    {
+        "key": "rsin",
+        "name": "Roopak Sinha",
+        "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/roopak.jpg",
+        "role": "external",
+        "contact": {
+            "email": "r.sinha@auckland.ac.nz"
+        },
+        "info": {
+            "education": "Postgraduate Certificate in Academic Practice, University of Auckland, Expected completion: November 2013<br />Doctor of Philosophy (PhD), Electrical and Computer Engineering, University of Auckland, 2009<br />Bachelor of Engineering (1st class Honours), Electronics and Computer Engineering, Manukau Institute of Technology, 2003",
+            "research_interests": "Internet based Services (Web, Mobile, Cloud). Service Oriented Activities esp. Service Composition. Formal Methods Application for Service Oriented Computing."
         }
     }
 ]

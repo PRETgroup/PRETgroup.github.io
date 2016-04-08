@@ -10,6 +10,7 @@ function make_nice_header(string) {
 function getRoleNameForKey(key) {
     switch(key) {
         case "leader": return "Group Leader";
+        case "external": return "External Collaborator";
         default: return make_nice_header(key);
     }
 }
