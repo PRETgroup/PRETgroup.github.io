@@ -1,0 +1,103 @@
+<div class="text-center margin-bottom-md">
+    <h2>Intelligent Transport Systems (ITS)</h2>
+</div>
+<div class="inline-picture picture-right">
+    <img src="/img/projects/its/intelligent-transport-systems.jpg" />
+</div>
+<p>
+    Intelligent transport systems (ITS) are automated systems that analyse and respond to changing conditions to optimise traffic efficiency.
+    This project will provide quantitative evidence for both the reduction in greenhouse gases and the safety of the systems chosen, to enable policy makers to field and evaluate these technologies.
+</p>
+<p>
+    Fielding intelligent transportation systems, despite having huge potential, has been hindered by two major challenges:<br />
+    <ol>
+        <li>How to demonstrate the efficiency of these systems given the large number of possible variations in traffic conditions.</li>
+        <li>How to make these systems intrinsically failure-resistant (functionally safe).</li>
+    </ol>
+</p>
+<p>
+    Complex systems, such as Virtual Traffic Lights (VTL), can be deployed only when their effects on greenhouse gas mitigation are thoroughly assessed and their safety is guaranteed.
+    Therefore, to address these issues we have used a mathematical framework that enables both Model Driven Engineering of transport systems and the design of suitable analysis techniques.
+</p>
+<p>
+    The image highlights the need for this focus by presenting a collision avoidance scenario where vehicles use wireless vehicle-to-vehicle (V2V) communications to create dynamic traffic control plans.
+</p>
+
+
+<div class="inline-picture picture-left">
+    <img src="/img/projects/its/model.jpg" />
+</div>
+<h2 class="margin-top-md">Key focus areas/issues</h2>
+<p>
+    The main activities under this project are as follows:
+</p>
+
+<h3>Mathematical Models for ITS</h3>
+<p>
+    In order to use mathematical techniques to assess and analyse new ITSs, we require them to be precisely modelled.
+    While a number of mathematical models exist, so far none of the existing models can be used for modelling ITS solutions.
+    Hence, we are focussing on creating new hybrid models for ITS.
+</p>
+
+<h3>Tools/Simulators</h3>
+<p>
+    Focussing on the "Model-View-Controller" pattern for model-driven engineering, we are developing tools that can allow us to model sophisticated controllers like VTL precisely, in addition to the modelling of the system being examined (the road and vehicles).
+    This co-development of the controller and the plant allows us to make these models more information-rich in an iterative manner.
+    In addition to analysing them, we can also "view" them using a suitable graphical user interface.
+</p>
+<p>
+    We are using the following existing tools to develop an integrated development environment (IDE) for modelling and validating ITS:
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">BlokIDE:</h4>
+    A model-driven engineering tool developed at The University of Auckland that conforms to the IEC 61499 standard for developing complex distributed computer systems.
+    BlokIDE is used to develop models for new ITS such as VTL.
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Aimsun/S-Paramics:</h4>
+    These are powerful micro-simulators used by transportation engineers to model and visualise road and vehicle information.
+    We link these “plant” models to the “controller” models in BlokIDE in order to analyse them as a complete system.
+    The visualisers in the microsimulators provide the “view” component of the Model-View-Controller design process.
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">BLAST:</h4>
+    In order to formally (mathematically) analyse ITS solutions, we use the BLAST model checker for C programs.
+    BlokIDE generates C-language code which can then be analysed using BLAST.
+</p>
+
+<h3>Mathematical proofs (BLAST, PRISM)</h3>
+<p>
+    In this aspect, we focus on the creation of new algorithms for efficiently verifying complex ITS models.
+</p>
+
+<h3>Traffic control algorithms</h3>
+<div class="inline-picture picture-right">
+    <img src="/img/projects/its/cvtl-intersection.jpg" />
+</div>
+<p>
+    This important aspect of our work focuses on modelling existing traffic control algorithms such as <a href="http://www.scats.com.au/" target="_blank">SCATS</a> (used in Australia and New Zealand currently) and VTL (a futuristic ITS).
+    While SCATS works uses signalised intersections and induction loops to detect traffic patterns, VTL relies exclusively on V2V communications between vehicles.
+    SCATS, although widely used, does not focus on the optimisation of greenhouse gas emissions.
+    VTL on the other hand, has been shown to achieve significant reductions (up to 18%) in greenhouse gas emissions.
+    However, VTL requires all vehicles to be equipped with sophisticated and expensive equipment such as V2V, lane-level accurate GPS, on-board traffic lights panel, etc.
+    Also, VTL does not support pedestrians, and is very fragile against network failures.
+</p>
+<p>
+    Based on our exploration of SCATS and VTL, we have created a new traffic control algorithm called VTL+ that extends VTL such that it can be used even when less than 100% of the fleet is equipped with VTL equipment. Non-VTL vehicles are detected using additional induction loops placed at the span of the intersection.
+    When conflicting non-VTL vehicles are detected, the controller switches to a SCATS-like actuated intersection mode.
+    When only VTL traffic is present, the VTL-based traffic plans are implemented.
+    Moreover, we show using mathematical analysis that VTL+ is safe during network failures, and it also supports pedestrians by the use of existing pedestrian buttons on key intersections.
+</p>
+
+<h3>V2V/V2I protocols</h3>
+<p>
+    For ITS like VTL and VTL+, wireless communications between vehicles (V2V) and between infrastructure and vehicles (V2I) are carried out using vehicular network standards such as IEEE 802.11p (WAVE).
+    In order to ensure new ITS are safe, the network protocols themselves must be modelled and analysed comprehensively.
+    Hence, we are looking at how to model WAVE and other relevant protocols such as Time-Triggered New Zigbee (TTNZ) and include these models during the mathematical analysis of an ITS.
+</p>
+
+<h3>Automotive software</h3>
+<p>
+    The ITS research domain also includes software that executes within a single vehicle.
+    This wing of our research looks at performance analysis (such as worst-case response time) of software within a vehicle, and how it can be executed optimally.
+</p>
