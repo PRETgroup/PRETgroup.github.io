@@ -64,6 +64,12 @@ nav {
     }
 }
 
+.tab-content {
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 0px 0px 4px 4px;
+}
+
 .content {
 	min-height: 100vh;
 	padding-top: 60px;
