@@ -8,6 +8,7 @@ if(project === undefined)
 changeTab(project);
 
 $("#research_tabs").find("a").click(function() {
+    window.history.pushState({}, document.title, "/#!research?project=" + $(this).data("tab"));
     changeTab($(this).data("tab"));
 
     return false;
