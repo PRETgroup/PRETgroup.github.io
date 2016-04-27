@@ -95,7 +95,7 @@ $.ajax("/pages/members.json")
 
         $.ajax("/pages/publications.json")
         .done(function(datapub) {
-            if(typeof data === "string") {
+            if(typeof datapub === "string") {
                 publications = JSON.parse(datapub);
             }
             else {

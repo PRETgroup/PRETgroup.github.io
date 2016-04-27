@@ -52,7 +52,7 @@ function changeTab(page) {
 
         $.ajax("/pages/publications.json")
         .done(function(datapub) {
-            if(typeof data === "string") {
+            if(typeof datapub === "string") {
                 publications = JSON.parse(datapub);
             }
             else {
