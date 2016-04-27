@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="45 15 685 180" style="enable-background:new 45 15 685 180;" xml:space="preserve">
+<style type="text/css">
+	.text_border{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.text_fill{fill: #000000;}
+	.text_small{stroke-width:1;}
+	.symbol_border{stroke:#D50000;stroke-width:2;stroke-miterlimit:10;}
+	.symbol_fill{fill:#D50000;}
+	.evenodd{fill-rule: evenodd}
+</style>
+<g>
+	<!-- Symbol -->
+	<path class="symbol_border symbol_fill" d="M160,165
+		l568, 0
+		l0,10
+		l-568,0
+		z"/>
+
+	<!-- Text -->
+	<g>
+		<!-- 3 -->
+		<g>
+			<path class="text_border text_fill" d="M65,45
+				l85,0
+				l0,15
+				l-40,30
+				a50,50 0 1 1 -60,50
+				l10,0
+				a40,40 0 1 0 40,-40
+				l0,-15
+				l40,-30
+				l-75,0
+				z" />
+		</g>
+
+		<!-- Two -->
+		<g>
+			<!-- T -->
+			<path class="text_border text_fill" d="M95,20
+				l145,0
+				l0,15
+				l-65,0
+				l0,125
+				l-15,0
+				l0,-125
+				l-65,0
+				l0,-15
+				z" />
+
+			<!-- w -->
+			<path class="text_border text_fill" d="M182,65
+				l15,0
+				l0,80
+				l24.5,-42
+				l10,0
+				l24.5,42
+				l0,-80
+				l15,0
+				l0,95
+				l-20,0
+				l-24.5,-42
+				l-24.5,42
+				l-20,0
+				l0,-95
+				z" />
+
+			<!-- o -->
+			<path class="text_border text_fill evenodd" d="M324.5,65
+				a47.5,47.5 0 1 0 1,0
+				z
+
+				m0,15
+				a32.5,32.5 0 1 0 1,0
+				z" />
+		</g>
+
+		<!-- One -->
+		<g>
+			<!-- O -->
+			<path class="text_border text_fill evenodd" d="M454,20
+				a70,70 0 1 0 1,0
+				z
+
+				m0,20
+				a50,50 0 1 0 1,0
+				z" />
+
+			<!-- n -->
+			<path class="text_border text_fill" d="M531,110
+				a47.5,45 0 1 1 95,0
+				l0,50
+				l-20,0
+				l0,-50
+				a27.5,25 0 1 0 -55,0
+				l0,50
+				l-20,0
+				l0,-50
+				z" />
+
+			<!-- e -->
+			<path class="text_border text_fill evenodd" d="M728,112.5
+				l-75,0
+				a27.5,27.5 0 0 0 51.32,13.75
+				l17.32,10
+				a47.5,47.5 0 1 1 6.36,-23.75
+				z
+
+				m-22.5,-15
+				l-50,0
+				a27.5,27.5 0 0 1 50,0
+				z" />
+		</g>
+
+		<!-- TM -->
+		<g>
+			<!-- T -->
+			<path class="text_border text_fill text_small" d="M700,50
+				l14,0
+				l0,3
+				l-5.5,0
+				l0,11
+				l-3,0
+				l0,-11
+				l-5.5,0
+				l0,-3
+				z" />
+
+			<!-- M -->
+			<path class="text_border text_fill text_small" d="M715,50
+				l4,0
+				l3.5,6
+				l3.5,-6
+				l4,0
+				l0,14
+				l-3,0
+				l0,-9
+				l-3.5,6
+				l-1.5,0
+				l-3.5,-6
+				l0,9
+				l-3,0
+				l0,-14
+				z" />
+		</g>
+	</g>
+</g>
+</svg>

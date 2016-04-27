@@ -1,0 +1,34 @@
+<div class="text-center margin-bottom-md">
+    <h2>Precision Timed (PRET)</h2>
+</div>
+<p>
+    Real-time systems are systems which are required to respond to the environment within a specified time frame to meet its deadlines.
+    There are two types of real-time systems, soft real-time systems and hard real-time systems.
+    Soft real-time systems are systems where missing deadlines are undesirable but will only degrade the system performance.
+    For example, touch screens, televisions, and mp3 players.
+    In contrast, hard real-time systems are systems where missing deadlines will result in the complete failure of the system and may cause real life catastrophes.
+    For example, engine control units, anti-lock brake systems, flight controllers and the mars rover.
+</p>
+<p>
+    To ensure real-time systems respond within specified time frames, the timing constraints of such systems must be rigorously proven.
+    These timing constraints are typically decided by determining the worst-case execution time (WCET) of the system.
+    There are two main techniques to determine the WCET of the system.
+    One, measurement based, where the WCET is obtained by measuring the execution time of the system by using various input test vectors.
+    Two, static analysis, where the both the hardware and software is abstracted and modelled to determine a safe overestimation of the WCET.
+</p>
+<p>
+    For hard real-time systems, static analysis is more desirable because measurement based approaches often cannot guarantee to obtain the actual system WCET.
+    For practical systems it is often impossible or unfeasible to measure the execution times of every input combination of the system.
+</p>
+<div class="inline-picture picture-80">
+    <img src="/img/projects/pret/realtimesystems.jpg" />
+</div>
+<p>
+    Static analysis techniques often have a trade-off between precision of the WCET analysis and analysis time.
+    Thus, to obtain a very precise WCET analysis for traditional speculative processors (traditionally processors are designed to increase the average case performance by introducing speculative hardware such as caches, branch prediction and prefetch units) takes a very long analysis time.
+    In addition, speculative processors can introduce timing anomaly where the longest path may not necessary be the summation of the longest modelled execution times of each hardware unit.
+    To address these problems, a new type of processor called “Precision Timed (PRET) Machines” is being proposed.
+    PRET Machines are designed to execute in a time predictable manner without losing throughput.
+    PRET Machines execute in a timing predictable manner where each instruction have a guaranteed execution time, thus, timing anomalies are avoided.
+    Due to the fact that the execution times of each instruction are guaranteed, the hardware model of PRET Machines can be both precise and simple, therefore, the WCET analysis can very fast and precise.
+</p>
