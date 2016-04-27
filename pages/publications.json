@@ -13,6 +13,9 @@
         "our_authors": [
             "mkuo",
             "proop"
+        ],
+        "our_projects": [
+            "iec61499"
         ]
     },
     {
@@ -30,6 +33,9 @@
         "our_authors": [
             "yzha",
             "proop"
+        ],
+        "our_projects": [
+            "iec61499"
         ]
     },
     {
@@ -47,6 +53,9 @@
             "jro",
             "proop",
             "amal"
+        ],
+        "our_projects": [
+            "its"
         ]
     },
     {
@@ -63,6 +72,9 @@
         "our_authors": [
             "lyoo",
             "proop"
+        ],
+        "our_projects": [
+            "iec61499"
         ]
     },
     {
@@ -79,6 +91,9 @@
         "our_authors": [
             "mhik",
             "proop"
+        ],
+        "our_projects": [
+            "its"
         ]
     },
     {
@@ -95,6 +110,9 @@
             "proop",
             "zbha",
             "mkuo"
+        ],
+        "our_projects": [
+            "iec61499"
         ]
     },
     {
@@ -112,6 +130,10 @@
             "jro",
             "zbha",
             "proop"
+        ],
+        "our_projects": [
+            "its",
+            "iec61499"
         ]
     },
     {
@@ -132,6 +154,9 @@
             "eyip",
             "mkuo",
             "proop"
+        ],
+        "our_projects": [
+            "reactivity"
         ]
     },
     {
@@ -153,6 +178,9 @@
             "jwan",
             "proop",
             "sand"
+        ],
+        "our_projects": [
+            "reactivity"
         ]
     },
     {
@@ -174,6 +202,9 @@
             "proop",
             "sand",
             "npat"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -193,6 +224,9 @@
         "our_authors": [
             "eyip",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -211,6 +245,9 @@
             "sand",
             "rsin",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -230,6 +267,9 @@
         "our_authors": [
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -248,6 +288,9 @@
             "mkuo",
             "rsin",
             "proop"
+        ],
+        "our_projects": [
+            "reactivity"
         ]
     },
     {
@@ -264,6 +307,9 @@
         "our_authors": [
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "reactivity"
         ]
     },
     {
@@ -281,6 +327,9 @@
             "sand",
             "rsin",
             "proop"
+        ],
+        "our_projects": [
+            "reactivity"
         ]
     },
     {
@@ -296,6 +345,9 @@
         "our_authors": [
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -314,6 +366,9 @@
             "mkuo",
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "iec61499"
         ]
     },
     {
@@ -331,6 +386,9 @@
         "our_authors": [
             "eyip",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -349,6 +407,9 @@
         "our_authors": [
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -367,6 +428,9 @@
         "our_authors": [
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     },
     {
@@ -385,6 +449,9 @@
         "our_authors": [
             "proop",
             "sand"
+        ],
+        "our_projects": [
+            "reactivity"
         ]
     },
     {
@@ -401,6 +468,9 @@
         "our_authors": [
             "sand",
             "proop"
+        ],
+        "our_projects": [
+            "pret"
         ]
     }
 ]
