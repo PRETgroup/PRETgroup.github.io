@@ -107,12 +107,22 @@ nav {
 
 .inline-picture {
 	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
 
 	@media(min-width: 768px) {
+		&.picture-80 {
+			max-width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
 		&.picture-left, &.picture-right {
 			max-width: 50%;
 			margin-left: 10px;
 			float: right;
+			margin-top: 0px;
+			margin-bottom: 0px;
 
 			&.picture-left {
 				margin-right: 10px;
