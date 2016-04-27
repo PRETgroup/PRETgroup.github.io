@@ -20,6 +20,20 @@ a {
     }
 }
 
+.btn {
+	border-radius: 0px;
+}
+
+.btn-primary {
+	background-color: rgba($primary_color, 0.8);
+	border-color: $primary_color;
+
+	&:hover, &:focus {
+		background-color: $primary_color;
+		border-color: mix($primary_color, #000000, 0.3);
+	}
+}
+
 .color-white {
 	color: #fff;
 }
