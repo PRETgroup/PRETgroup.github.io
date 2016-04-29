@@ -19,6 +19,47 @@
         ]
     },
     {
+        "type": "proceedings",
+        "key": "date2016-nall,
+        "author": "Nathan Allen, Sidharta Andalam, Partha S. Roop, Avinash Malik, Mark Trew and Nitish Patel",
+        "title": " Modular Code Generation for Emulating the Electrical Conduction System of the Human Heart",
+        "booktitle": "Design Automation and Test in Europe, 2016. DATE '16.",
+        "year": "2016",
+        "month": "mar",
+        "location": "Dresden, Germany",
+        "links": {
+        },
+        "our_authors": [
+            "nall",
+            "sand",
+            "proop",
+            "amal",
+            "mtre",
+            "npat"
+        ],
+        "our_projects": [
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "date2016-mkuo,
+        "author": "Matthew  Kuo, Sidharta Andalam and Partha S. Roop",
+        "title": "Precision Timed Industrial Automation Systems",
+        "booktitle": "Design Automation and Test in Europe, 2016. DATE '16.",
+        "year": "2016",
+        "month": "mar",
+        "location": "Dresden, Germany",
+        "links": {
+        },
+        "our_authors": [
+            "mkuo",
+            "sand",
+            "proop"
+        ],
+        "our_projects": [
+        ]
+    },
+    {
         "type": "journal",
         "key": "zhao2016model",
         "author": "Zhao, Yu and Roop, Partha S",
@@ -248,6 +289,23 @@
         ],
         "our_projects": [
             "pret"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "dac2014-TUMCREATE",
+        "author": "Florian Sagstetter, Sidharta Andalam, Peter Waszecki, Martin Lukasiewycz, Hauke Staehle, Samarjit Chakraborty, Alois Knoll",
+        "title": " Schedule Integration Framework for Time-Triggered Automotive Architectures",
+        "booktitle": "Design Automation Conference, 2014. DAC '14.",
+        "year": "2014",
+        "month": "jun",
+        "location": "Austin, TX, USA",
+        "links": {
+        },
+        "our_authors": [
+            "sand"
+        ],
+        "our_projects": [
         ]
     },
     {
