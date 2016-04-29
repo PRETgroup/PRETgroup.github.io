@@ -1,1 +1,35 @@
-- RePRET
+<div class="text-center margin-bottom-md">
+    <h2>Reactivity</h2>
+</div>
+
+<h2 class="margin-top-md">Reactive Processors</h2>
+<p>
+    Reactive processors provide an alternative approach to the typical polling or interrupt mechanisms used by conventional processors for environment interaction.
+    They were first developed at Auckland University, with the the first paper on it appearing in 2002.
+    In the following, we present three generations of reactive processors that have been developed at Auckland University.
+    The first generation consisted of simple processors that had no support for concurrency.
+    The second generation of reactive architectures supported concurrency through the use of multiple processor cores.
+    The current generation of reactive processors (called the third generation) provides multithreading support within a single core.
+    While this work was being carried out here, research on reactive processors have also been on-going at Kiel University since 2004.
+    Their research had proposed the first multithreaded design for reactive processors.
+</p>
+<p>
+    An embedded system typically interacts continuously with its adjoining environment through sensors and actuators.
+    When implementing this interaction on conventional processors, inputs from the environmnet have traditionally been read through either polling or interrupt mechanisms.
+    Polling is a simple procedure that checks for sensor values at regular intervals, irrespective of whether or not the sensor values have changed, resulting in a waste of CPU cycles, especially when sampling inputs that rarely change.
+    Interrupts, on the other hand, combine preemption and priority in a single package, and are much more efficient compared to polling.
+    The main drawbacks of interrupts, however, include:
+
+    <ol>
+        <li>The latency of an interrupt is highly unpredictable.</li>
+        <li>The associated code is very complex and difficult to debug.</li>
+    </ol>
+
+    Reactive processors were motivated by the need for alternative architectures that provided more predictable and structured models of interactions with the environment.
+</p>
+
+<h3>RePRET</h3>
+<p>
+    RePRET to go here.
+    We need to find out whether we can provide download links for RePRET or not due to Berkeley / ARM.
+</p>
