@@ -1,1 +1,56 @@
-- Timeme.io
+<div class="text-center margin-bottom-md">
+    <h2>IEC 61499</h2>
+</div>
+
+<div class="inline-picture picture-right">
+    <img src="/img/projects/iec61499/blokide_simulation.png" />
+</div>
+<h2>BlokIDE</h2>
+<p>
+    <a href="http://timeme.io" target="_blank">BlokIDE</a> is an immersive design environment for Model-Driven Engineering of programmable electronics.
+    Integration with the most efficient IEC 61499 compiler in the world allows BlokIDE to auto-generate ISO-C code that can run on a variety of platforms, ranging from Programmable ICs to Programmable Logic Controllers.
+</p>
+
+<h3>Benefits</h3>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Synchronous execution:</h4>
+    Based on mathematically sound synchronous execution semantics, BlokIDE generates code that is deterministic and guaranteed to be causal-by-construction.
+    The resultant systems and free from ambiguities, deadlocks and race conditions.
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Formal verification:</h4>
+    Formal verification is the name of applying mathematical techniques in order to prove or disprove the correctness of a system against an intended functional behaviour.
+    BlokIDE integrates with formal verifiers and model checkers for ensured correct functional behaviour.
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Static timing analysis:</h4>
+    BlokIDE allows design of real-time applications, where the time taken to respond to the environment is extremely important.
+    Static timing analysis computes the worst case execution time (WCET) of the systems, which can be used to determine if the timing requirements are met.
+</p>
+
+<div class="inline-picture picture-left">
+    <img src="/img/projects/iec61499/simul.png" />
+</div>
+<h3>Additional features</h3>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Automatic code generation:</h4>
+    BlokIDE is integrated with the world’s most efficient code generator for IEC 61499.
+    The output of code generation is a set of human readable ISO-C files along with Makefile scripts, which compiles out of the box.
+    The generated code does not require any runtime or scheduler and is compiled to a native binary executable.
+    Due to a small memory footprint, the generated code can execute on a variety of devices ranging from light-weight Programmable ICs (PICs) to industrial Programmable Logic Controllers (PLCs).
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Simulation:</h4>
+    BlokIDE is equipped with a discrete-step design simulator for of IEC 61499 function blocks.
+    The simulation is performed by generating simulation-ready code, which contains any external code that is included in the project e.g., a 3rd party pre-compiled library.
+    A further enhanced mode of this feature enables hardware in-loop simulation in the presence of platform specific libraries.
+    In addition to the visualization, a range of inspection tools are also available that are used to track values of various variables and events in the system.
+</p>
+<p>
+    <h4 class="font-bold inline-block no-margin-bottom">Device deployment:</h4>
+    The output of automatic code generation is compatible with a wide range of C compilers.
+    Depending on the service interface function blocks used in a BlokIDE project, the generated code may be compiled into native x86 executables and run on the PC.
+    However, in some cases the generated code may be platform-specific e.g., use of IO pins on a PLC.
+    For such cases, the code must be compiled by a platform-specific GNU C Compiler (GCC).
+    BlokIDE supports cross-compliers (e.g., avr-gcc) as well as onboard GCC for platform-specific compilation over SSH/SFTP connection.
+</p>
