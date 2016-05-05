@@ -149,49 +149,14 @@
         $.getScript(javascript_page);
     }
 
-    var load_query_params = function(page) {
-        if(page === undefined)
-            page = window.location.hash.substr(2);
-
-        query_params = [];
-        if(page.indexOf("?") > -1) {
-            var params_str = page.substr(page.indexOf("?")+1);
-
-            var params = params_str.split("&");
-            for(var i=0; i<params.length; i++) {
-                var index = params[i].indexOf("=");
-                if(index > -1) {
-                    query_params[params[i].substr(0, index)] = params[i].substr(index+1);
-                }
-            }
-
-            page = page.substr(0, page.indexOf("?"));
-        }
-
-        return page;
-    }
-
     var load_from_hash = function() {
-        var page = window.location.hash.substr(2);
-        if (page.length == 0) {
-            page = "home";
-        }
-
-        page = load_query_params(page);
+        var page = "404";
 
         load_content(page);
     }
 
     $(function() {
         load_from_hash();
-
-        $(".navbar-nav").find("a").click(function() {
-            $(".navbar-toggle").click();
-        });
-
-        $(window).on('hashchange', function() {
-            load_from_hash();
-        });
     })
     </script>
 </body>
