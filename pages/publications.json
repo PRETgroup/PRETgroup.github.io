@@ -18,12 +18,34 @@
             "iec61499"
         ]
     },
+	{
+        "type": "proceedings",
+        "key": "embc2016-sand",
+        "author": "Sidartha Andalam, Harshavardhan Ramanna, Avinash Malik, Parthasarathi Roop, Nitish Patel, Mark L. Trew",
+        "title": "Hybrid Automata Models of Cardiac Ventricular Electrophysiology for Real-Time Computational Applications",
+        "booktitle": "(to appear in) IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "year": "2016",
+        "month": "aug",
+        "location": "Florida, USA",
+        "links": {
+        },
+        "our_authors": [
+            "sand",
+			"hram",
+            "amal",
+            "proop",
+			"npat",
+            "mtre"
+        ],
+        "our_projects": [
+        ]
+    },
     {
         "type": "proceedings",
         "key": "arch2016-sand",
         "author": "Sidharta Andalam, Avinash Malik, Partha S. Roop and Mark Trew",
         "title": "Hybrid Automata Model of the Heart for Formal Verification of Pacemakers",
-        "booktitle": "Applied Verification for Continuous and Hybrid Systems, 2016. ARCH '16",
+        "booktitle": "Applied Verification for Continuous and Hybrid Systems (ARCH)",
         "year": "2016",
         "month": "apr",
         "location": "Vienna, Austria",
@@ -43,7 +65,7 @@
         "key": "date2016-nall",
         "author": "Nathan Allen, Sidharta Andalam, Partha S. Roop, Avinash Malik, Mark Trew and Nitish Patel",
         "title": " Modular Code Generation for Emulating the Electrical Conduction System of the Human Heart",
-        "booktitle": "Design Automation and Test in Europe, 2016. DATE '16",
+        "booktitle": "Design Automation and Test in Europe (DATE)",
         "year": "2016",
         "month": "mar",
         "location": "Dresden, Germany",
@@ -297,7 +319,7 @@
         "key": "dac2013",
         "author": "Sidharta Andalam and Alain Girault and Roopak Sinha and Partha S. Roop and Jan Reineke",
         "title": "Precise timing analysis for direct-mapped caches",
-        "booktitle": "The 50th Annual Design Automation Conference 2013, DAC '13",
+        "booktitle": "Design Automation Conference 2013, DAC '13",
         "year": "2013",
         "location": "Austin, TX, USA",
         "links": {
@@ -311,6 +333,20 @@
         ],
         "our_projects": [
             "pret"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "dac2013",
+        "author": "Martin Lukasiewycz, Sebastian Steinhorst, Sidharta Andalam, Florian Sagstetter, Peter Waszecki, Wanli Chang, Matthias Kauer, Philipp Mundhenk, Shanker Shreejith, Suhaib A Fahmy, Samarjit Chakraborty",
+        "title": " System Architecture and Software Design for Electric Vehicles",
+        "booktitle": "Design Automation Conference 2013, DAC '13",
+        "year": "2013",
+        "location": "Austin, TX, USA",
+        "our_authors": [
+            "sand"
+        ],
+        "our_projects": [
         ]
     },
     {
