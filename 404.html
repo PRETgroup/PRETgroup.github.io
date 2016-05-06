@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="theme-color" content="#66BB6A">
+    <meta name="theme-color" content="#43A047">
     <meta name="google-site-verification" content="I5rQ5wguZWVxFjwn6FWNwFOamKXbF14mcbaF3LEZBMs" />
 
     <link rel="icon" type="image/png" href="/img/favicon/favicon-196x196.png" sizes="196x196" />
@@ -149,50 +149,14 @@
         $.getScript(javascript_page);
     }
 
-    var load_query_params = function(page) {
-        if(page === undefined)
-            page = window.location.hash.substr(2);
-
-        query_params = [];
-        if(page.indexOf("?") > -1) {
-            var params_str = page.substr(page.indexOf("?")+1);
-
-            var params = params_str.split("&");
-            for(var i=0; i<params.length; i++) {
-                var index = params[i].indexOf("=");
-                if(index > -1) {
-                    query_params[params[i].substr(0, index)] = params[i].substr(index+1);
-                }
-            }
-
-            page = page.substr(0, page.indexOf("?"));
-        }
-
-        return page;
-    }
-
     var load_from_hash = function() {
-        var page = window.location.hash.substr(2);
-        if (page.length == 0) {
-            page = "home";
-        }
-
-        page = load_query_params(page);
+        var page = "404";
 
         load_content(page);
     }
 
     $(function() {
         load_from_hash();
-
-        $(".navbar-nav").find("a").click(function() {
-            if($(".navbar-collapse").hasClass("in"))
-                $(".navbar-toggle").click();
-        });
-
-        $(window).on('hashchange', function() {
-            load_from_hash();
-        });
     })
     </script>
 </body>
