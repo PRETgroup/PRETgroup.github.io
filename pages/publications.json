@@ -104,7 +104,7 @@
         ]
     },
     {
-        "type": "journal",
+        "type": "article",
         "key": "zhao2016model",
         "author": "Zhao, Yu and Roop, Partha S",
         "title": "Model-Driven Design of Cardiac Pacemaker Using IEC 61499 Function Blocks",
@@ -367,7 +367,7 @@
         ]
     },
     {
-        "type": "journal",
+        "type": "article",
         "key": "ieee-tc-pret-c",
         "author": "Sidharta Andalam and Partha S. Roop and Alain Girault and Claus Traulsen",
         "title": "Predictable Framework for Safety-Critical Embedded Systems",
