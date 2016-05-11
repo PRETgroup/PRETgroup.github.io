@@ -77,12 +77,24 @@ $.ajax("/pages/members.json")
                 info_name = make_nice_header(info);
 
                 html += '       <h3>' + info_name + '</h3>';
-                html += '       ' + member_struct["info"][info];
+                
+                var content = "";
+
+                if(member_struct["info"][info] instanceof Array) {
+                    for(var i=0; i<member_struct["info"][info].length; i++) {
+                        content += "<p>" + member_struct["info"][info][i] + "</p>";
+                    }
+                }
+                else {
+                    content = "<p>" + member_struct["info"][info] + "</p>";
+                }
+
+                html += '       ' + content;
             }
         }
 
         html += '       <h3>';
-        html += '           Publications';
+        html += '           Group Publications';
         html += '           <span class="small" style="font-size: 60%;">';
         html += '               Sort By: <a href="#!members?member=' + member + '&sort=year" class="sort_change">Year</a>';
         html += '               | <a href="#!members?member=' + member + '&sort=type" class="sort_change">Type</a>';
