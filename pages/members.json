@@ -2,29 +2,34 @@
     {
         "key": "proop",
         "name": "Partha Roop",
-        "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/partha1_small.jpg",
-        "position": "Senior Lecturer",
+        "photo": "https://unidirectory.auckland.ac.nz/people/imageraw/p-roop/10290280/biggest",
+        "position": "Associate Professor",
         "role": "leader",
         "contact": {
-            "phone": "+64 9 3737599 EXT:85583",
-            "fax": "+64 9 3737461",
-            "email": "p.roop@auckland.ac.nz"
+            "phone": "+64 9 923 5583",
+            "fax": "+64 9 373 7461",
+            "email": "p.roop@auckland.ac.nz",
+            "unidirectory": "https://unidirectory.auckland.ac.nz/profile/p-roop"
         },
         "info": {
-            "background": "I did a PhD in Computer Science and Engineering from the University of New South Wales, Sydney, Australia, an M. Tech from Indian Institute of Technology in Kharagpur, India and a B. E degree from Anna University (College of Engineering), Madras, India.",
-            "research_interests": "My main research interests is in the area of real-time embedded systems. These are ubiquitous computing systems that have challenging design issues in both hardware and software fronts. Of particular interest to me are systems in industrial control such as airport baggage handling and other complex material handling systems. I am also looking at several design challenges in embedded systems such as the static timing analysis of embedded code, design of processors that guarantee precise timing and the design of complex systems on a chip (SoC) by automatically combining many pre-verified IP blocks. An interesting project that combines many of these challenges is the design of interactive indoor sports environments and we are developing such environments at UoA. I have proposed a family of processors called reactive processors which are specifically designed for reactive embedded applications."
+            "background": "Partha Roop is the Computer Systems Engineering programme director in the Department of Electrical and Computer Engineering at the University of Auckland, New Zealand. He completed his PhD in Computer Science and Engineering at the University of New South Wales, Sydney, Australia, a M.Tech at Indian Institute of Technology in Kharagpur, India and a BE degree at Anna University (College of Engineering), Madras, India. Partha had visiting positions in Kiel University, Germany (collaboration with the <a href=\"http://www.rtsys.informatik.uni-kiel.de/en\" target=\"blank\">Embedded Systems Group</a>, French National Laboratory of Informatics and Control (<a href=\"https://team.inria.fr/spades/\" target=\"blank\">SPADES team Grenoble</a>), and <a href=\"http://www.ece.iastate.edu\" target=\"_blank\">Iowa State University</a>. He collaborates with University of California, Berkeley in the <a href=\"https://chess.eecs.berkeley.edu/pret/\" target=\"blank\">PRET project</a>.",
+            "research_interests": "<ul><li>Real-Time Systems</li><li>Computer Engineering for Biological Systems (cyber-biological systems)</li><li>Software Engineering for web / cloud services</li><li>Medical Devices</li><li>Heart Modelling and Pacemakers</li><li>Intelligent Transportation Systems</li><li>Industrial Automation.</li></ul>"
         }
     },
     {
         "key": "amal",
         "name": "Avinash Malik",
-        "photo": "",
+        "photo": "https://unidirectory.auckland.ac.nz/people/imageraw/avinash-malik/10399875/biggest",
         "position": "Lecturer",
         "role": "member",
         "contact": {
-            "email": "avinash.malik@auckland.ac.nz"
+            "phone": "+64 9 923 9231",
+            "email": "avinash.malik@auckland.ac.nz",
+            "unidirectory": "https://unidirectory.auckland.ac.nz/profile/avinash-malik"
         },
         "info": {
+            "background": "Avinash obtained his BE (Hons I) and PhD from the University of Auckland in 2010. He then worked as a post-doctoral fellow at INRIA Grenoble, the French Institute for Research in Computer Science and Automation. His work as a post-doctoral fellow continued at Trinity College Dublin, Ireland in the department of computer science and statistics, after which he then took a role as a research scientist at IBM Research. He joined the University of Auckland in May 2013.",
+            "research_interests": "<ul><li>Real-time systems</li><li>Embedded systems</li><li>Compiler construction</li><li>Programming language semantics</li><li>Logic for program verification</li><li>Formal methods application to bioengineering</li></ul>"
         }
     },
     {
@@ -97,7 +102,11 @@
             "email": "sid.andalam@aucklanduni.ac.nz"
         },
         "info": {
-            "background": "Sidharta Andalam is currently working on the Heart-on-FPGA research group in the Department of Electrical and Computer Engineering, University of Auckland. His principle research is on emulating the electrical conduction system of the heart for validation of medical devices such as cardiac pacemakers. <br /><br /> Sidharta Andalam received his Ph.D from University of Auckland in 2013, where his thesis focused on developing a predictable platform for safety-critical systems. During his Ph.D., he has worked with University of California, Berkeley on Precision Timed (PRET) processors. He has worked at INRIA, France on language semantics, abstract interpretation and static analysis and worked at Christian-Albrechts-University, Kiel, Germany on designing and analysis of reactive processors. Furthermore, he enjoys collabration with the members of Advanced Formal Methods for Embedded Systems (AFMES) program, supported by INRIA, France and with the members of Center for Hybrid and Embedded Software Systems (Chess) at University of California, Berkeley. His research was focused on designing synchronous languages, time predictable reactive processors and developed a model checking based timing analyser for verifying timing constraints.  He has developed new techniques for statically analysing caches and scratchpads for computing an upper bound on the worst case execution time of a program. Furthermore, Sidharta developed reactive processors for executing synchronous languages called Esterel and PRET-C, and worked on FPGA based hardware accelerators for reducing the worst case execution time of a program while maintaining predictability.<br /><br />In 2014-15, Sidharta Andalam worked as a research fellow in embedded systems group at TUM CREATE, Singapore. TUM CREATE is a research programme for developing innovative technologies, for design and application of electric vehicles (EVs). He researched on design, implementation and analysis of safety-critical automotive applications. Using a time triggered Ethernet, he investigated task distribution and migration in heterogeneous multi-core architecture."
+            "background": [
+                "Sidharta Andalam is currently working on the Heart-on-FPGA research group in the Department of Electrical and Computer Engineering, University of Auckland. His principle research is on emulating the electrical conduction system of the heart for validation of medical devices such as cardiac pacemakers.",
+                "Sidharta Andalam received his Ph.D from University of Auckland in 2013, where his thesis focused on developing a predictable platform for safety-critical systems. During his Ph.D., he has worked with University of California, Berkeley on Precision Timed (PRET) processors. He has worked at INRIA, France on language semantics, abstract interpretation and static analysis and worked at Christian-Albrechts-University, Kiel, Germany on designing and analysis of reactive processors. Furthermore, he enjoys collabration with the members of Advanced Formal Methods for Embedded Systems (AFMES) program, supported by INRIA, France and with the members of Center for Hybrid and Embedded Software Systems (Chess) at University of California, Berkeley. His research was focused on designing synchronous languages, time predictable reactive processors and developed a model checking based timing analyser for verifying timing constraints.  He has developed new techniques for statically analysing caches and scratchpads for computing an upper bound on the worst case execution time of a program. Furthermore, Sidharta developed reactive processors for executing synchronous languages called Esterel and PRET-C, and worked on FPGA based hardware accelerators for reducing the worst case execution time of a program while maintaining predictability.",
+                "In 2014-15, Sidharta Andalam worked as a research fellow in embedded systems group at TUM CREATE, Singapore. TUM CREATE is a research programme for developing innovative technologies, for design and application of electric vehicles (EVs). He researched on design, implementation and analysis of safety-critical automotive applications. Using a time triggered Ethernet, he investigated task distribution and migration in heterogeneous multi-core architecture."
+            ]
         }
     },
     {
@@ -135,7 +144,10 @@
             "email": "eyip002@aucklanduni.ac.nz"
         },
         "info": {
-            "background": "Eugene Yip received his undergraduate degree in Engineering (Hons) from the University of Auckland. He is currently a Doctoral Candidate, supervised by Dr. Partha Roop and Dr. Morteza Biglari-Abhari. His primary field of interest is in the deterministic parallel programming of embedded multicore systems with safety-critical concerns. He is developing a synchronous extension to C with formal semantics, called ForeC, which allows programmers to write deterministic parallel programs. To complement the language, he is also developing a static timing analysis tool for computing WCRT of ForeC programs executed on multicore systems. He has served as a teaching assistant in the software design and digital logic courses, and a student mentoring scheme.<br /><br />Eugene is interested in website development and opensource projects. He has been involved in Spark, which is a student-led organisation for fostering the spirit of entrepreneurship at the University of Auckland. He has also tried Salsa, Ceroc, and enjoys Ballroom dancing. To keep his writing fluent, he enjoys the use of fountain pens."
+            "background": [
+                "Eugene Yip received his undergraduate degree in Engineering (Hons) from the University of Auckland. He is currently a Doctoral Candidate, supervised by Dr. Partha Roop and Dr. Morteza Biglari-Abhari. His primary field of interest is in the deterministic parallel programming of embedded multicore systems with safety-critical concerns. He is developing a synchronous extension to C with formal semantics, called ForeC, which allows programmers to write deterministic parallel programs. To complement the language, he is also developing a static timing analysis tool for computing WCRT of ForeC programs executed on multicore systems. He has served as a teaching assistant in the software design and digital logic courses, and a student mentoring scheme.",
+                "Eugene is interested in website development and opensource projects. He has been involved in Spark, which is a student-led organisation for fostering the spirit of entrepreneurship at the University of Auckland. He has also tried Salsa, Ceroc, and enjoys Ballroom dancing. To keep his writing fluent, he enjoys the use of fountain pens."
+            ]
         }
     },
     {
@@ -149,7 +161,10 @@
         },
         "info": {
             "background": "I am a PhD student in the Department of Electrical and Computer Engineering at the University of Auckland in Auckland, New Zealand, supervised by Dr. Partha S. Roop. I also obtained my Master of Engineering (Honours) degree and B.E. (Honours) degree at the same university.",
-            "research_interests": "My main research interest is in the area of real-time embedded system.<br /><br />The research topic of the master is ILP based WCRT analysis for synchronous programs. The ILP formulations explicitly take the concurrent and the lock-step execution natural of synchronous programs into consideration, result a faster analysis time than conventional ILP formulation and better handling of the state space explosion problem. My current research focus on how to effectively program Precision Timed (PRET) Machines with consideration of facilitating the timing analysis process and achieving optimal performance."
+            "research_interests": [
+                "My main research interest is in the area of real-time embedded system.",
+                "The research topic of the master is ILP based WCRT analysis for synchronous programs. The ILP formulations explicitly take the concurrent and the lock-step execution natural of synchronous programs into consideration, result a faster analysis time than conventional ILP formulation and better handling of the state space explosion problem. My current research focus on how to effectively program Precision Timed (PRET) Machines with consideration of facilitating the timing analysis process and achieving optimal performance."
+            ]
         }
     },
     {
