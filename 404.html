@@ -163,6 +163,10 @@
         var redirect = redirects(path);
         if(redirect !== null && redirect !== undefined) {
             window.location.href = redirect;
+
+            $("#content_pane").html("<div class='container margin-top-sm'><div class='col-md-10 col-md-offset-1 text-center'><h1 class='margin-bottom-md'>Redirecting</h1>If your browser does not automatically redirect you, please follow the following link:<br /><a href='" + redirect + "'>" + redirect + "</a></div></div>");
+            $("#loading_pane").hide();
+            return;
         }
 
         load_from_hash();

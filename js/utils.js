@@ -17,6 +17,7 @@ function redirects(path) {
         case "members/adeel": return "http://pretzel.ece.auckland.ac.nz/#!members?member=sali";
         case "mahmood-hikmet-2": return "http://pretzel.ece.auckland.ac.nz/#!members?member=mhik";
         case "members": return "http://pretzel.ece.auckland.ac.nz/#!members";
+        case "404.html": return "http://pretzel.ece.auckland.ac.nz/#!members";
 
         return null;
     }
