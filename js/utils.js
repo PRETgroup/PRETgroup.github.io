@@ -1,5 +1,27 @@
 var loading_html = '<div style="padding-top: 100px; padding-bottom: 100px;"><div class="sk-folding-cube"><div class="sk-cube1 sk-cube"></div><div class="sk-cube2 sk-cube"></div><div class="sk-cube4 sk-cube"></div><div class="sk-cube3 sk-cube"></div></div></div>';
 
+function redirects(path) {
+    switch(path) {
+        case "bio": return "http://uoa-bioremulation.github.io/";
+        case "publications": return "http://pretzel.ece.auckland.ac.nz/#!publications";
+        case "research": return "http://pretzel.ece.auckland.ac.nz/#!research";
+        case "research/intelligent-transportation-systems": return "http://pretzel.ece.auckland.ac.nz/#!research?project=its";
+        case "research/real-time-systems": return "http://pretzel.ece.auckland.ac.nz/#!research?project=pret";
+        case "members/zeeshan-ejaz-bhatti": return "http://pretzel.ece.auckland.ac.nz/#!members?member=zbha";
+        case "members/sidharta-andalam": return "http://pretzel.ece.auckland.ac.nz/#!members?member=sand";
+        case "members/roopak-sinha": return "http://pretzel.ece.auckland.ac.nz/#!members?member=rsin";
+        case "members/partha-roop": return "http://pretzel.ece.auckland.ac.nz/#!members?member=proop";
+        case "members/matthew-kuo": return "http://pretzel.ece.auckland.ac.nz/#!members?member=mkuo";
+        case "members/hugh-wang": return "http://pretzel.ece.auckland.ac.nz/#!members?member=jwan";
+        case "members/268-2": return "http://pretzel.ece.auckland.ac.nz/#!members?member=eyip";
+        case "members/adeel": return "http://pretzel.ece.auckland.ac.nz/#!members?member=sali";
+        case "mahmood-hikmet-2": return "http://pretzel.ece.auckland.ac.nz/#!members?member=mhik";
+        case "members": return "http://pretzel.ece.auckland.ac.nz/#!members";
+
+        return null;
+    }
+}
+
 function make_nice_header(string) {
     string = string.replace('_', ' ');
     string = string.toLowerCase();
