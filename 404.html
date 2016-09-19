@@ -151,12 +151,20 @@
     }
 
     var load_from_hash = function() {
-        var page = "404";
+        var page = "error404";
 
         load_content(page);
     }
 
     $(function() {
+        var path = window.location.pathname;
+        path = path.replace(/^\/+|\/+$/, "");
+
+        var redirect = redirects(path);
+        if(redirect !== null && redirect !== undefined) {
+            window.location.href = redirect;
+        }
+
         load_from_hash();
     })
     </script>
