@@ -1,5 +1,45 @@
 [
     {
+        "type": "proceedings",
+        "key": "isorc2016-mhik",
+        "author": "Mahmood Hikmet, Matthew Kuo, Partha S. Roop and Prakash Ranjitkar",
+        "title": "Mixed-Criticality Systems as a Service for Non-critical Tasks",
+        "booktitle": "2016 IEEE 19th International Symposium on Real-Time Distributed Computing (ISORC)",
+        "year": "2016",
+        "month": "may",
+        "location": "York, UK",
+        "links": {
+        },
+        "our_authors": [
+            "mhik",
+            "mkuo",
+            "proop"
+        ],
+        "our_projects": [
+            "pret"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "isorc2016-hpea",
+        "author": "Hammond A. Pearce, Matthew Kuo, Partha S. Roop and Morteza Biglari-Abhari",
+        "title": "RunSync: A Predictable Runtime for Precision Timed Automation Systems",
+        "booktitle": "2016 IEEE 19th International Symposium on Real-Time Distributed Computing (ISORC)",
+        "year": "2016",
+        "month": "may",
+        "location": "York, UK",
+        "links": {
+        },
+        "our_authors": [
+            "hpea",
+            "mkuo",
+            "proop"
+        ],
+        "our_projects": [
+            "pret"
+        ]
+    },
+    {
         "type": "collection",
         "key": "kuo2016new",
         "author": "Kuo, Matthew MY and Roop, Partha S",
