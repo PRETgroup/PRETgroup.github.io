@@ -1,5 +1,23 @@
 [
     {
+        "type": "article",
+        "key": "pinisetty16-runtime-enforcement",
+        "author": "Srinivas Pinisetty, Partha S. Roop, Steven Smyth, Stavros Tripakis and Reinhard von Hanxleden",
+        "title": "Runtime enforcement of reactive systems using synchronous enforcers",
+        "journal": "CoRR",
+        "year": "2016",
+        "volume": "abs/1612.05030",
+        "links": {
+            "URL": "http://arxiv.org/abs/1612.05030"
+        },
+        "our_authors": [
+            "proop"
+        ],
+        "our_projects": [
+            "reactivity"
+        ]
+    },
+    {
         "type": "proceedings",
         "key": "isorc2016-mhik",
         "author": "Mahmood Hikmet, Matthew Kuo, Partha S. Roop and Prakash Ranjitkar",
@@ -627,24 +645,6 @@
         ],
         "our_projects": [
             "pret"
-        ]
-    },
-    {
-        "type": "article",
-        "key": "pinisetty16-runtime-enforcement",
-        "author": "Srinivas Pinisetty, Partha S. Roop, Steven Smyth, Stavros Tripakis and Reinhard von Hanxleden",
-        "title": "Runtime enforcement of reactive systems using synchronous enforcers",
-        "journal": "CoRR",
-        "year": "2016",
-        "volume": "abs/1612.05030",
-        "links": {
-            "URL": "http://arxiv.org/abs/1612.05030"
-        },
-        "our_authors": [
-            "proop"
-        ],
-        "our_projects": [
-            "reactivity"
         ]
     }
 ]
