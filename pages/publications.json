@@ -1,5 +1,26 @@
 [
     {
+        "type": "proceedings",
+        "key": "isorc2017-nall",
+        "author": "Nathan Allen, Hammond Pearce, Partha Roop and Reinhard von Hanxleden",
+        "title": "A model driven approach for cardiac pacemaker design using a PRET processor",
+        "booktitle": "2017 IEEE 20th International Symposium on Real-Time Distributed Computing (ISORC)",
+        "year": "2017",
+        "month": "may",
+        "location": "Toronto, Canada",
+        "links": {
+        },
+        "our_authors": [
+            "nall",
+            "hpea",
+            "proop"
+        ],
+        "our_projects": [
+            "pret",
+			"reactivity"
+        ]
+    },
+    {
         "type": "article",
         "key": "pinisetty16-runtime-enforcement",
         "author": "Srinivas Pinisetty, Partha S. Roop, Steven Smyth, Stavros Tripakis and Reinhard von Hanxleden",
