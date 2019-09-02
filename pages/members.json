@@ -33,8 +33,18 @@
         }
     },
     {
-        "key": "lyoo",
+        "key": "lyoong",
         "name": "Li Hsien Yoong",
+        "photo": "",
+        "role": "alumni",
+        "contact": {
+        },
+        "info": {
+        }
+    },
+    {
+        "key": "yzha",
+        "name": "Yu (Tony) Zhao",
         "photo": "",
         "role": "alumni",
         "contact": {
@@ -178,7 +188,7 @@
         }
     },
     {
-        "key": "rsin",
+        "key": "rsinha",
         "name": "Roopak Sinha",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/roopak.jpg",
         "role": "external",

@@ -234,8 +234,8 @@
         "links": {
         },
         "our_authors": [
-            "nall",
-            "hpea",
+            "nallen",
+            "hpearce",
             "proop"
         ],
         "our_projects": [
@@ -273,7 +273,7 @@
         "links": {
         },
         "our_authors": [
-            "mhik",
+            "mhikmet",
             "mkuo",
             "proop"
         ],
@@ -293,7 +293,7 @@
         "links": {
         },
         "our_authors": [
-            "hpea",
+            "hpearce",
             "mkuo",
             "proop"
         ],
@@ -332,12 +332,10 @@
         "links": {
         },
         "our_authors": [
-            "sand",
-			"hram",
-            "amal",
+            "sandalam",
+            "amalik",
             "proop",
-			"npat",
-            "mtre"
+			"npatel"
         ],
         "our_projects": [
         ]
@@ -354,10 +352,9 @@
         "links": {
         },
         "our_authors": [
-            "sand",
-            "amal",
-            "proop",
-            "mtre"
+            "sandalam",
+            "amalik",
+            "proop"
         ],
         "our_projects": [
         ]
@@ -374,12 +371,11 @@
         "links": {
         },
         "our_authors": [
-            "nall",
-            "sand",
+            "nallen",
+            "sandalam",
             "proop",
-            "amal",
-            "mtre",
-            "npat"
+            "amalik",
+            "npatel"
         ],
         "our_projects": [
         ]
@@ -397,7 +393,7 @@
         },
         "our_authors": [
             "mkuo",
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -418,7 +414,7 @@
         "links": {
         },
         "our_authors": [
-            "yzha",
+            "yzhao",
             "proop"
         ],
         "our_projects": [
@@ -439,7 +435,7 @@
         "our_authors": [
             "jro",
             "proop",
-            "amal"
+            "amalik"
         ],
         "our_projects": [
             "its"
@@ -457,7 +453,7 @@
         "links": {
         },
         "our_authors": [
-            "lyoo",
+            "lyoong",
             "proop"
         ],
         "our_projects": [
@@ -476,7 +472,7 @@
         "links": {
         },
         "our_authors": [
-            "mhik",
+            "mhikmet",
             "proop"
         ],
         "our_projects": [
@@ -493,9 +489,9 @@
         "links": {
         },
         "our_authors": [
-            "lyoo",
+            "lyoong",
             "proop",
-            "zbha",
+            "zbhatti",
             "mkuo"
         ],
         "our_projects": [
@@ -515,7 +511,7 @@
         },
         "our_authors": [
             "jro",
-            "zbha",
+            "zbhatti",
             "proop"
         ],
         "our_projects": [
@@ -562,9 +558,9 @@
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/cases2013.pptx"
         },
         "our_authors": [
-            "jwan",
+            "jwang",
             "proop",
-            "sand"
+            "sandalam"
         ],
         "our_projects": [
             "reactivity"
@@ -587,8 +583,8 @@
         "our_authors": [
             "mkuo",
             "proop",
-            "sand",
-            "npat"
+            "sandalam",
+            "npatel"
         ],
         "our_projects": [
             "pret"
@@ -629,8 +625,8 @@
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/dac2013-presentation.pdf"
         },
         "our_authors": [
-            "sand",
-            "rsin",
+            "sandalam",
+            "rsinha",
             "proop"
         ],
         "our_projects": [
@@ -646,7 +642,7 @@
         "year": "2013",
         "location": "Austin, TX, USA",
         "our_authors": [
-            "sand"
+            "sandalam"
         ],
         "our_projects": [
         ]
@@ -663,7 +659,7 @@
         "links": {
         },
         "our_authors": [
-            "sand"
+            "sandalam"
         ],
         "our_projects": [
         ]
@@ -683,7 +679,7 @@
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/ieee-tc-pret-c.pdf"
         },
         "our_authors": [
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -704,7 +700,7 @@
         },
         "our_authors": [
             "mkuo",
-            "rsin",
+            "rsinha",
             "proop"
         ],
         "our_projects": [
@@ -723,7 +719,7 @@
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2011-wcet.pdf"
         },
         "our_authors": [
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -742,8 +738,8 @@
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/delta2011-wcet.pdf"
         },
         "our_authors": [
-            "sand",
-            "rsin",
+            "sandalam",
+            "rsinha",
             "proop"
         ],
         "our_projects": [
@@ -761,7 +757,7 @@
             "PDF": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/memocode2010-pret-c.pdf"
         },
         "our_authors": [
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -782,7 +778,7 @@
         },
         "our_authors": [
             "mkuo",
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -823,7 +819,7 @@
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/date2010-pret-c-presentation.pdf"
         },
         "our_authors": [
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -844,7 +840,7 @@
             "Presentation": "http://homepages.engineering.auckland.ac.nz/~pretzel/papers/repp2009-pret-c-presentation.pdf"
         },
         "our_authors": [
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
@@ -866,7 +862,7 @@
         },
         "our_authors": [
             "proop",
-            "sand"
+            "sandalam"
         ],
         "our_projects": [
             "reactivity"
@@ -884,7 +880,7 @@
             "PDF": "http://hal.inria.fr/inria-00391621/fr/"
         },
         "our_authors": [
-            "sand",
+            "sandalam",
             "proop"
         ],
         "our_projects": [
