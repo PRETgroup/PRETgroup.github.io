@@ -1,6 +1,229 @@
 [
     {
         "type": "proceedings",
+        "key": "pearce2019-synsizing-iec-61499",
+        "author": "Hammond Pearce, Partha Roop",
+        "title": "Synthesizing IEC 61499 Function Blocks to hardware",
+        "booktitle": "2019 International Conference on Electronics, Information, and Communication (ICEIC)",
+        "year": "2019",
+        "month": "jan",
+        "location": "Auckland, New Zealand",
+        "publisher": "IEEE",
+        "our_authors": [
+            "hpearce",
+            "proop"
+        ],
+        "our_projects": [
+            "pret",
+			"reactivity",
+			"iec61499"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "roop2018-synchronous-neural-networks",
+        "author": "Partha S Roop, Hammond Pearce, Keyan Monadjem",
+        "title": "Synchronous neural networks for cyber-physical systems",
+        "booktitle": "2018 16th ACM\/IEEE International Conference on Formal Methods and Models for System Design (MEMOCODE)",
+        "year": "2018",
+        "month": "oct",
+        "location": "Beijing, China",
+        "publisher": "IEEE",
+        "our_authors": [
+            "proop",
+            "hpearce",
+            "kmonadjem"
+        ],
+        "our_projects": [
+            "pret",
+			"reactivity"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "pearce2018-faster-function-blocks",
+        "author": "Hammond Pearce, Partha Roop, Morteza Biglari-Abhari, Martin Schoeberl",
+        "title": "Faster function blocks for precision timed industrial automation",
+        "booktitle": "2018 IEEE 21st International Symposium on Real-Time Distributed Computing (ISORC)",
+        "year": "2018",
+        "month": "may",
+        "location": "Singapore",
+        "publisher": "IEEE",
+        "our_authors": [
+            "hpearce",
+            "proop"
+        ],
+        "our_projects": [
+            "pret",
+			"reactivity",
+			"iec61499"
+        ]
+    },
+    {
+        "type": "article",
+        "key": "kuo2017-new-design-patterns",
+        "author": "Matthew MY Kuo, Partha S Roop",
+        "title": "New Design Patterns for Time-Predictable Execution of Function Blocks",
+        "journal": "Distributed Control Applications: Guidelines, Design Patterns, and Application Examples with the IEC 61499",
+        "pages": "69",
+        "year": "2017",
+        "month": "dec",
+        "publisher": "CRC Press",
+        "our_authors": [
+            "mkuo",
+            "proop"
+        ],
+        "our_projects": [
+            "pret",
+			"reactivity",
+			"iec61499"
+        ]
+    },
+    {
+        "type": "article",
+        "key": "ro2017-a-formal-approach",
+        "author": "Jin Woo Ro, Partha S Roop, Avinash Malik, Prakash Ranjitkar",
+        "title": "A formal approach for modeling and simulation of human car-following behavior",
+        "journal": "IEEE transactions on intelligent transportation systems",
+        "volume": "19",
+        "number": "2",
+        "pages": "639-648",
+        "year": "2017",
+        "month": "oct",
+        "publisher": "IEEE",
+        "our_authors": [
+            "jro",
+            "proop",
+            "amalik"
+        ],
+        "our_projects": [
+            "its"
+        ]
+    },
+    {
+        "type": "article",
+        "key": "roop2017-runtime-enforcement-cyber",
+        "author": "Srinivas Pinisetty, Partha S Roop, Steven Smyth, Nathan Allen, Stavros Tripakis, Reinhard Von Hanxleden",
+        "title": "Runtime enforcement of cyber-physical systems",
+        "journal": "ACM Transactions on Embedded Computing Systems (TECS)",
+        "volume": "16",
+        "number": "5s",
+        "pages": "178",
+        "year": "2017",
+        "month": "oct",
+        "publisher": "ACM",
+        "our_authors": [
+            "proop",
+            "nallen"
+        ],
+        "our_projects": [
+			"reactivity"
+        ]
+    },
+    {
+        "type": "article",
+        "key": "wang2017-timing-analysis-synchronous",
+        "author": "Jiajie Wang, Michael Mendler, Partha Roop, Bruno Bodin",
+        "title": "Timing analysis of synchronous programs using WCRT algebra: scalability through abstraction",
+        "journal": "ACM Transactions on Embedded Computing Systems (TECS)",
+        "volume": "16",
+        "number": "5s",
+        "pages": "177",
+        "year": "2017",
+        "month": "oct",
+        "publisher": "ACM",
+        "our_authors": [
+            "jwang",
+            "proop"
+        ],
+        "our_projects": [
+            "pret"
+        ]
+    },
+    {
+        "type": "article",
+        "key": "malik2017-modular-compilation-hybrid",
+        "author": "Avinash Malik, Partha S Roop, Sidharta Andalam, Mark Trew, Michael Mendler",
+        "title": "Modular compilation of hybrid systems for emulation and large scale simulation",
+        "journal": "ACM Transactions on Embedded Computing Systems (TECS)",
+        "volume": "16",
+        "number": "5s",
+        "pages": "118",
+        "year": "2017",
+        "month": "oct",
+        "publisher": "ACM",
+        "our_authors": [
+            "amalik",
+            "proop",
+            "sandalam"
+        ],
+        "our_projects": [
+			"reactivity"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "pearce2017-simulation-cyber-physical",
+        "author": "Hammond A Pearce, Matthew MY Kuo, Nathan Allen, Partha S Roop, Avinash Malik",
+        "title": "Simulation of cyber-physical systems using IEC61499",
+        "booktitle": "Proceedings of the 15th ACM-IEEE International Conference on Formal Methods and Models for System Design",
+        "year": "2017",
+        "month": "sep",
+        "location": "Vienna, Austria",
+        "publisher": "ACM",
+        "our_authors": [
+            "hpearce",
+            "mkuo",
+            "nallen",
+            "proop",
+            "amalik"
+        ],
+        "our_projects": [
+			"iec61499"
+        ]
+    },
+    {
+        "type": "article",
+        "key": "malik2017-emulation-cyber-physical",
+        "author": "Avinash Malik, Partha S Roop, Nathan Allen, Theo Steger",
+        "title": "Emulation of cyber-physical systems using IEC-61499",
+        "journal": "IEEE Transactions on Industrial Informatics",
+        "volume": "14",
+        "number": "1",
+        "pages": "380-389",
+        "year": "2017",
+        "month": "jul",
+        "publisher": "IEEE",
+        "our_authors": [
+            "amalik",
+            "proop",
+            "nallen"
+        ],
+        "our_projects": [
+			"iec61499"
+        ]
+    },
+    {
+        "type": "proceedings",
+        "key": "yip2016-forec-synchronous-deterministic",
+        "author": "Eugene Yip, Alain Girault, Partha S Roop, Morteza Biglari-Abhari",
+        "title": "The ForeC synchronous deterministic parallel programming language for multicores",
+        "booktitle": "2016 IEEE 10th International Symposium on Embedded Multicore\/Many-core Systems-on-Chip (MCSOC)",
+        "year": "2016",
+        "month": "sep",
+        "location": "Lyon, Frnace",
+        "publisher": "IEEE",
+        "our_authors": [
+            "eyip",
+            "proop"
+        ],
+        "our_projects": [
+            "pret",
+			"reactivity"
+        ]
+    },
+    {
+        "type": "proceedings",
         "key": "isorc2017-nall",
         "author": "Nathan Allen, Hammond Pearce, Partha Roop and Reinhard von Hanxleden",
         "title": "A model driven approach for cardiac pacemaker design using a PRET processor",
