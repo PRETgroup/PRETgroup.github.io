@@ -3,7 +3,7 @@
         "key": "proop",
         "name": "Partha Roop",
         "photo": "https://unidirectory.auckland.ac.nz/people/imageraw/p-roop/10290280/biggest",
-        "position": "Associate Professor",
+        "position": "Professor",
         "role": "leader",
         "contact": {
             "phone": "+64 9 923 5583",
@@ -17,7 +17,7 @@
         }
     },
     {
-        "key": "amal",
+        "key": "amalik",
         "name": "Avinash Malik",
         "photo": "https://unidirectory.auckland.ac.nz/people/imageraw/avinash-malik/10399875/biggest",
         "position": "Lecturer",
@@ -43,7 +43,7 @@
         }
     },
     {
-        "key": "zbha",
+        "key": "zbhatti",
         "name": "Zeeshan Ejaz Bhatti",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/picture-281x300.jpg",
         "role": "alumni",
@@ -69,7 +69,7 @@
         }
     },
     {
-        "key": "hpea",
+        "key": "hpearce",
         "name": "Hammond Pearce",
         "photo": "",
         "position": "PhD Student",
@@ -81,7 +81,7 @@
         }
     },
     {
-        "key": "nall",
+        "key": "nallen",
         "name": "Nathan Allen",
         "photo": "",
         "position": "PhD Student",
@@ -93,11 +93,10 @@
         }
     },
     {
-        "key": "sand",
+        "key": "sandalam",
         "name": "Sidharta Andalam",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/sid-Large-225x300.jpg",
-        "position": "Postdoctoral Researcher",
-        "role": "member",
+        "role": "alumni",
         "contact": {
             "email": "sid.andalam@auckland.ac.nz"
         },
@@ -110,11 +109,10 @@
         }
     },
     {
-        "key": "mhik",
+        "key": "mhikmet",
         "name": "Mahmood Hikmet",
         "photo": "http://pretzel.ece.auckland.ac.nz/wp-uploads/2013/02/moody1.jpg",
-        "position": "PhD Student",
-        "role": "member",
+        "role": "alumni",
         "contact": {
             "email": "mhik003@aucklanduni.ac.nz"
         },
@@ -127,7 +125,7 @@
         "key": "jro",
         "name": "Jin Ro",
         "photo": "",
-        "position": "PhD Student",
+        "position": "Postdoctoral Researcher",
         "role": "member",
         "contact": {
             "email": "jro002@aucklanduni.ac.nz"
@@ -151,11 +149,10 @@
         }
     },
     {
-        "key": "jwan",
+        "key": "jwang",
         "name": "Hugh Wang",
         "photo": "",
-        "position": "PhD Student",
-        "role": "member",
+        "role": "alumni",
         "contact": {
             "email": "jwan232@aucklanduni.ac.nz"
         },
