@@ -105,7 +105,7 @@
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <hr class="small no-margin-top" style="margin-bottom: 25px;">
-                    <p class="text-muted">Copyright &copy; PRETzel 2016</p>
+                    <p class="text-muted">Copyright &copy; PRETzel 2019</p>
                 </div>
             </div>
         </div>
@@ -131,6 +131,8 @@
 
         var request_page = dir + '/pages/' + page + ".html";
         var javascript_page = dir + '/pages/js/' + page + '.js';
+		
+		$.ajaxSetup({cache: false});
 
         $.ajax(request_page)
         .done(function(data) {
@@ -148,10 +150,38 @@
         });
 
         $.getScript(javascript_page);
+        ga('send', 'pageview', location.pathname + location.search + location.hash);
+    }
+
+    var load_query_params = function(page) {
+        if(page === undefined)
+            page = window.location.hash.substr(2);
+
+        query_params = [];
+        if(page.indexOf("?") > -1) {
+            var params_str = page.substr(page.indexOf("?")+1);
+
+            var params = params_str.split("&");
+            for(var i=0; i<params.length; i++) {
+                var index = params[i].indexOf("=");
+                if(index > -1) {
+                    query_params[params[i].substr(0, index)] = params[i].substr(index+1);
+                }
+            }
+
+            page = page.substr(0, page.indexOf("?"));
+        }
+
+        return page;
     }
 
     var load_from_hash = function() {
-        var page = "error404";
+        var page = window.location.hash.substr(2);
+        if (page.length == 0) {
+            page = "home";
+        }
+
+        page = load_query_params(page);
 
         load_content(page);
     }
@@ -168,8 +198,17 @@
             $("#loading_pane").hide();
             return;
         }
+	
+        load_content("error404");
 
-        load_from_hash();
+        $(".navbar-nav").find("a").click(function() {
+            if($(".navbar-collapse").hasClass("in"))
+                $(".navbar-toggle").click();
+        });
+
+        $(window).on('hashchange', function() {
+            load_from_hash();
+        });
     })
     </script>
 
@@ -180,7 +219,6 @@
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-77524757-1', 'auto');
-        ga('send', 'pageview');
     </script>
 </body>
 
