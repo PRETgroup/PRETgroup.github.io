@@ -8,15 +8,15 @@ function redirects(path) {
         case "research": return "http://pretzel.ece.auckland.ac.nz/#!research";
         case "research/intelligent-transportation-systems": return "http://pretzel.ece.auckland.ac.nz/#!research?project=its";
         case "research/real-time-systems": return "http://pretzel.ece.auckland.ac.nz/#!research?project=pret";
-        case "members/zeeshan-ejaz-bhatti": return "http://pretzel.ece.auckland.ac.nz/#!members?member=zbha";
-        case "members/sidharta-andalam": return "http://pretzel.ece.auckland.ac.nz/#!members?member=sand";
-        case "members/roopak-sinha": return "http://pretzel.ece.auckland.ac.nz/#!members?member=rsin";
+        case "members/zeeshan-ejaz-bhatti": return "http://pretzel.ece.auckland.ac.nz/#!members?member=zbhatti";
+        case "members/sidharta-andalam": return "http://pretzel.ece.auckland.ac.nz/#!members?member=sandalam";
+        case "members/roopak-sinha": return "http://pretzel.ece.auckland.ac.nz/#!members?member=rsinha";
         case "members/partha-roop": return "http://pretzel.ece.auckland.ac.nz/#!members?member=proop";
         case "members/matthew-kuo": return "http://pretzel.ece.auckland.ac.nz/#!members?member=mkuo";
-        case "members/hugh-wang": return "http://pretzel.ece.auckland.ac.nz/#!members?member=jwan";
+        case "members/hugh-wang": return "http://pretzel.ece.auckland.ac.nz/#!members?member=jwang";
         case "members/268-2": return "http://pretzel.ece.auckland.ac.nz/#!members?member=eyip";
         case "members/adeel": return "http://pretzel.ece.auckland.ac.nz/#!members?member=sali";
-        case "mahmood-hikmet-2": return "http://pretzel.ece.auckland.ac.nz/#!members?member=mhik";
+        case "mahmood-hikmet-2": return "http://pretzel.ece.auckland.ac.nz/#!members?member=mhikmet";
         case "members": return "http://pretzel.ece.auckland.ac.nz/#!members";
 
         return null;
@@ -438,6 +438,9 @@ function getStringForPublication(publication) {
         str = getReferenceForProceeding(publication);
         bibtex = getBibtexForCollection(publication, bibtex_key);
     }
+    else if("type" in publication && publication["type"] === "paper") {
+        str = getReferenceForProceeding(publication);
+    }
     else {
         return "";
     }
@@ -450,9 +453,10 @@ function getStringForPublication(publication) {
         }
     }
 
-    str += '[<a class="cursor-pointer" data-toggle="modal" data-target="#bibtexModal" data-entry="' + bibtex_key + '">Bibtex</a>] ';
-
-    str += '<span class="hide" id="' + bibtex_key + '">' + bibtex + '</span>';
+	if(bibtex !== "") {
+		str += '[<a class="cursor-pointer" data-toggle="modal" data-target="#bibtexModal" data-entry="' + bibtex_key + '">Bibtex</a>] ';
+		str += '<span class="hide" id="' + bibtex_key + '">' + bibtex + '</span>';
+	}
 
     return str;
 }
