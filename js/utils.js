@@ -3,6 +3,7 @@ var loading_html = '<div style="padding-top: 100px; padding-bottom: 100px;"><div
 function redirects(path) {
     switch(path) {
         case "bio": return "http://uoa-bioemulation.github.io/";
+        case "books/biomedical-embedded-systems": return "http://pretzel.ece.auckland.ac.nz/book-biomedical-embedded-systems/";
         case "home": return "http://pretzel.ece.auckland.ac.nz/";
         case "publications": return "http://pretzel.ece.auckland.ac.nz/#!publications";
         case "research": return "http://pretzel.ece.auckland.ac.nz/#!research";
